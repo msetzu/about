@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "Adobe Caslo Pro Regular";
+  src: url("/fonts/Adobe Caslon Pro Regular.ttf");
+}
+
+.read {
+	/*display: block;*/
+	width: auto !important;
+	font-family: "Adobe Caslon Pro";
+	font-size: x-large;
+}
+
+.panel-cover__description {
+	font-family: "Adobe Caslon Pro";
+	font-size: xx-large;
+
+}
+
+.cover-navigation .navigation__item {
+	width: 32% !important;
+}
+
+.navigation > .read.navigation__item {
+    max-width: 100% !important;
+    width: 100% !important;
+}
+
+.navigation__item > a,
+.navigation__item > a > i {
+    font-size: x-large;
+    opacity: .55;
+}
+
+.navigation__item > a:hover,
+.navigation__item > a > i:hover {
+    opacity: .95;
+}
+
+.no-border {
+	border: none !important;
+}
+
+ /* Mobile bar */
+.mobile.btn-mobile-menu {
+    display: none;
+}
+
+/* Mobile header */
+.panel-cover.panel-cover--collapsed {
+	float: left;
+	margin-bottom: 10%;
+}
+
+.panel-cover.panel-cover--collapsed .panel-main__inner {
+    padding-top: 30px;
+}
