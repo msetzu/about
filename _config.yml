@@ -11,7 +11,7 @@ author:
   linkedin_username: mattia-setzu-062b01158
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 plugins:
   - jekyll-feed
 
