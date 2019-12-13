@@ -51,19 +51,19 @@ Therefore, starting from a set of _local_ explanations, our objective is to find
 
 ## Motivations
 The main motivation behind this problem is the so called "local accuracy".
-Local explainability models have gained notoriety with the LIME framework [1], in which the authors acknowledge three agnostic assumptions:
+Local explainability models have gained notoriety with the LIME framework [^02], in which the authors acknowledge three agnostic assumptions:
 1. **black box models are locally interpretable**, that is, any subset of their decision boundary can be approximated with a simpler interpretable model;
 2. **interpretable sampling is more efficient than non-interpretable sampling**, that is, the input space has stronger noise than the interpretable space, hence sampling in this space yields "better" neighbors.
 
 With these two assumptions, LIME samples neighbors of a given record in the interpretable space, and builds interpretable models on top of it, from which local explanations are extracted.
-Several works have then followed along these lines [2][3], further demonstrating that local explanations have remarkably high accuracy. This is mainly due to the first hypothesis, that allows us to approximate just a subset of the decision boundary. With this observation in mind, one can see the Local to Global problem as a generalization problem in which to remove the locality of the explanations without negatively impacting their accuracy.
+Several works have then followed along these lines [^03][^04], further demonstrating that local explanations have remarkably high accuracy. This is mainly due to the first hypothesis, that allows us to approximate just a subset of the decision boundary. With this observation in mind, one can see the Local to Global problem as a generalization problem in which to remove the locality of the explanations without negatively impacting their accuracy.
 
 
-[^01]: [Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against blacks. _by Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, ProPublica, May 23, 2016_](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+[^01]: [Machine Bias: There’s software used across the country to predict future criminals. And it’s biased against blacks _by Julia Angwin, Jeff Larson, Surya Mattu and Lauren Kirchner, ProPublica, May 23, 2016_](https://www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing)
+[^02]: Why Should I Trust You?": Explaining the Predictions of Any Classifier, _by Marco Tulio Ribeiro and Sameer Singh and Carlos Guestrin_, in SIGKDD 2016
+[^03]: Factual and Counterfactual Explanations for Black Box Decision Making, _by R. Guidotti, A. Monreale, F. Giannotti, D. Pedreschi, S. Ruggieri and F. Turini_ in IEEE Intelligent Systems 2019
+[^04]: A Unified Approach to Interpreting Model Predictions, _by Scott Lundberg, Su-In Lee_ in NIPS 2017
 
 ---
-
-## References
-{% bibliography --file l2g %}
 
 ## Footnotes

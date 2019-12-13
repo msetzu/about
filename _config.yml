@@ -53,5 +53,5 @@ kramdown:
       start_line: 1
 
 gems: [jekyll-paginate, jekyll-scholar]
-plugins_dir: ['jekyll-paginate', 'jekyll-font-awesome-sass', 'jekyll-scholar']
+plugins_dir: ['jekyll-paginate', 'jekyll-font-awesome-sass', 'jekyll/scholar']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
