@@ -1,0 +1,303 @@
+body {
+	overflow-x: hidden;
+}
+
+header {
+	display: block;
+	height: 100% !important;
+	margin: 0 !important;
+	background-image: none !important;
+	box-shadow: none;
+}
+
+header.panel-cover {
+	background: #24292E !important;
+	box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+}
+
+hr {
+    margin: 5px !important;
+    width: 75% !important;
+}
+
+header hr {
+	display: none !important;
+}
+
+table {
+	margin: auto;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #dedede;
+}
+
+code table {
+	margin: 0;
+	width: 100%;
+}
+
+tbody > *:first-child td {
+	color: white;
+}
+
+#contacts_nav {
+	display: none;
+}
+
+#navigation_buttons {
+	height: 61px;
+	margin-top: 3px !important;
+	background: #24292E;
+}
+
+/* navbar */
+.panel-main__inner.panel-inverted {
+	/*background-color: #404040 !important;*/
+}
+
+.panel-main__inner.panel-inverted .button p,
+.panel-main__inner.panel-inverted .button i {
+    color: #404040 !important;
+}
+
+.panel-main {
+	height: 66px !important;
+}
+
+.cover-navigation {
+	margin-top: 0px;
+	background: none !important;
+}
+
+.panel-cover--overlay {
+	display: none !important;
+}
+
+.panel-cover.panel-cover--collapsed .panel-main__inner {
+	margin: 0;
+	height: 66px;
+	padding: 0px !important;
+	max-width: 100%;
+}
+
+.panel-main__inner.panel-inverted {
+	width: 100% !important;
+}
+
+.content-wrapper__inner {
+	padding: 20px 0 !important;
+}
+
+.panel-main__content {
+	max-width: 90%;
+	width: 90%;
+	margin-left: 5%;
+    margin-right: 5%;
+	height: 66px !important;
+	background: #24292e;
+}
+
+.panel-main__content > a {
+	display: none;
+}
+
+#navigation_buttons i,
+#navigation_buttons p {
+	color: white !important;
+}
+
+.panel-cover {
+	float: none !important;
+	display: block;
+	position: static;
+	height: 100px;
+	max-height: 100px;
+	width: 100% !important;
+	height: 66px !important;
+	min-width: 100% !important;
+}
+
+.main_bio,
+.panel-cover__description {
+	display: none;
+}
+
+.ui.five.buttons > .button {
+    width: auto;
+    margin: 0 5px !important;
+    background: none;
+}
+
+.ui.five.buttons > .button:hover {
+    background: #8D73C4 !important;
+}
+
+.buttons p,
+.buttons p i {
+    color: white !important;
+}
+
+.button {
+	border-radius: 4px !important;
+}
+
+#buttons .button {
+	background: none !important;
+}
+
+#buttons {
+    width: auto;
+    margin: auto;
+    padding: 0px !important;
+}
+
+#buttons > #home {
+	display: flex;
+}
+
+#buttons > #home > p {
+	width: 100%;
+}
+
+#buttons:nth-child(2) {
+	border-radius: none;
+}
+
+.content-wrapper {
+	margin: 10px 5%;
+	margin-top: 10px;
+    width: 90%;
+    max-width: 100%;
+    padding-top: 0px !important;
+}
+
+.button > p > i {
+	margin-right: 5px;
+	color: #404040;
+}
+
+.contacts i,
+.contacts p {
+  color: white !important;
+}
+
+
+.contacts .github {
+	background: #24292e;
+}
+
+.contacts .email {
+	background: #8D73C4;
+}
+
+.contacts .github:hover {
+	background: #24292e;
+}
+
+.contacts .email:hover {
+	background: #8D73C4;
+}
+
+.contacts .cv {
+	background: #da6d6d;
+}
+
+.contacts .cv:hover {
+	background: #da6d6d;
+}
+
+.highlight,
+.definition,
+.example {
+	background: #dedede!important;
+    padding: 15px 20px !important;
+    border-radius: 4px;
+    margin: 1em;
+}
+
+.example {
+    margin: 0 auto 15px;
+    width: auto !important;
+    display: table;
+	background: #eeeeee!important;
+}
+
+/* Code samples */
+pre {
+    tab-size: 1.5em;
+    background: none !important;
+}
+
+pre.lineno {
+	color: white;
+}
+
+.language-python {
+    background: none;
+}
+
+.language-python .highlight {
+	background: #24292E !important;
+	padding: 1px !important;
+}
+
+code table tr {
+    background: none !important;
+}
+
+code table {
+	border-bottom: none;
+}
+
+/* Tables */
+tbody tr:first-child {
+    background: #6d6d6d;
+}
+
+/* Article buttons */
+.post .buttons .button {
+    margin-right: 5px;
+}
+
+.paper {
+	background: #ff2626 !important;
+}
+
+.presentation {
+	background: #FFC926 !important;
+}
+
+@media (min-width: 1300px) {
+	article {
+	    display: block;
+	    width: 900px;
+	    margin: 0 auto;
+	}
+
+	.content-wrapper {
+		max-width: 75%;
+		margin: auto;
+	}
+
+	@media (max-width: 960px) {
+		.content-wrapper__inner {
+			width: 90%;
+			padding: 0 5%;
+		}
+	}
+
+	h1, h2, h3, h4, h5 {
+		font-family: Roboto Slab;
+	}
+
+	.navigation {
+		display: none;
+	}
+
+	.main_bio + hr {
+		display: none;
+	}
+
+	.post {
+		margin-top: 15px !important;
+	}
+}

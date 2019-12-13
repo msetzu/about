@@ -53,15 +53,15 @@ My develop setup includes version control (**git**), virtual machines (**vagrant
 ### Education
 
 #### Master's degree in Computer Science
-[Università degli Studi di Pisa](https://www.di.unipi.it/it/) |
-<i class="fa fa-calendar"></i> Sep 2016 -- Ongoing
+[Università degli Studi di Pisa](https://www.di.unipi.it/it/) (110 with honors) |
+<i class="fa fa-calendar"></i> Sep 2016 -- Oct 2018
 
 **Courses** Numerical Methods and Optimization, Machine Learning (ongoing), Natural Language Processing (ongoing), Data Mining, Information Retrieval, Advanced Algorithms, Advanced Programming, Parallel and Distributed Algorithms, Principles of Programming Languages, Models of Computation, Advanced Databases.
 
 * * *
 
 #### Bachelor's degree in Computer Science
-[Università degli Studi di Cagliari](http://corsi.unica.it/informatica/) | 
+[Università degli Studi di Cagliari](http://corsi.unica.it/informatica/) (103) | 
 <i class="fa fa-calendar"></i> Sep 2012 -- Mar 2016
 
 **Courses** Programming fundamentals, OO programming, Computer architectures, Operating Systems, Computer Networks, Linear Algebra, Differential Calculus, Statistics, Automata and Formal Languages, Compilers & interpreters, Scientific Computing, Web Development, Human-Machine Interaction, Databases, Software Engineering.
@@ -74,4 +74,4 @@ What more than that? I'm intrigued by the startup world and its ability to chang
 While in Pisa I attended several [seminars on the ICT industry](https://www.di.unipi.it/en/17-education/1088-research-innovation-and-future-of-ict) and I'm currently pursuing the [PhD+ program](https://www.unipi.it/index.php/phd-plus).
 
 * * *
-Looking for an offline version? Download the [cv pdf]({{ site.baseurl }}/docs/cv.pdf).
+Looking for an offline version? Download the [pdf]({{ site.baseurl }}/docs/cv.pdf).

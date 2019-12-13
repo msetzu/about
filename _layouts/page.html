@@ -1,14 +1,28 @@
----
-layout: default
----
-<article class="post-container post-container--single">
+<!DOCTYPE html>
+<html>
+  {% include head_page.html %}
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <script src="{{ site.baseurl }}/js/sidebar_page.js"></script>
 
-  <section class="post">
-    {{ content }}
-  </section>
+  <body>
+    {% include header.html %}
 
-</article>
+    <div class="content-wrapper">
+      <div class="content-wrapper__inner">
+        <article class="post-container post-container--single">
+
+		  <header class="post-header">
+		    <h1 class="post-title">{{ page.title }}</h1>
+		  </header>
+
+		  <section class="post">
+		    {{ content }}
+		  </section>
+
+		</article>
+      </div>
+
+      {% include footer.html %}
+    </div>
+  </body>
+</html>

@@ -1,7 +1,7 @@
 # Site settings
 title: MSetzu
 description: >- # this means to ignore newlines until "baseurl:"
-  Exploit data to get insight.
+  Explaining the world, one model at a time.
 baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
@@ -12,7 +12,7 @@ author:
 
 # Build settings
 markdown: redcarpet
-plugins:
+plugins_dir:
   - jekyll-feed
 
 font-awesome:
@@ -42,6 +42,15 @@ kramdown:
   input: GFM
   # do not replace newlines by <br>s
   hard_wrap: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    # css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
 
-plugins: ['jekyll-paginate']
+plugins: ['jekyll-paginate', 'jekyll-font-awesome-sass', 'jekyll-scholar']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
