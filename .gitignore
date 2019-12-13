@@ -4,3 +4,6 @@ _site
 
 # Gems
 Gemfile
+
+# hidden
+# *.hidden
