@@ -17,8 +17,5 @@ Currently, the topics I'm working on are
 You can find me on LinkedIn, Github and contact me via email.
 
 <div class="four ui contacts">
-	<a class="medium ui button linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank"><p><i class="fab fa-linkedin-in" id="a"></i>LinkedIn</p></a>
-	<a class="medium ui button github" id="about" href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank"><p><i class="fab fa-github"></i>Github</p></a>
-	<a class="medium ui button email" href="mailto:{{ site.author.email }}"><p><i class="fas fa-envelope-open-text"></i>Mail</p></a>
 	<a class="medium ui button cv" href="{{ site.baseurl }}/cv"><p><i class="fas fa-newspaper"></i>Curriculum Vitæ</p></a>
 </div>

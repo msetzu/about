@@ -20,8 +20,16 @@ permalink: /cv
 <i class="fa fa-calendar"></i> Nov 2015 -- Feb 2016 | <i class="fa fa-map-marker"></i>  Cagliari, IT
 - Developed back-end and the front-end of Need for Nerd's [portal](http://needfornerd.com/).
 
-
 ### Publications
+
+**GLocalX - From Local to Global Explanations of Black Box AI Models**  _Mattia Setzu, Riccardo Guidotti, Anna Monreale, Franco Turini, Dino Pedreschi, and Fosca Giannotti_; Journal of Artificial Intelligence
+
+---
+
+**Global Explanations with Local Scoring**, _Mattia Setzu, Riccardo Guidotti, Anna Monreale, and Franco Turini; Proceeding for the joint ECML/PKDD conference, 2016.
+
+---
+
 **SPARQL Queries over Source Code**, _Setzu Mattia, Atzori Maurizio_; Preceedings for the International Conference on Semantic Computing (ICSC), Feb. 2016.
 
 * * *
@@ -41,10 +49,8 @@ _(Retired)_ **CodeOntology: a Java semantic database**, _Setzu Mattia, Atzori Ma
 
 * * *
 
-### Skills & tools
-I'm proficient in **Java** and **Python**, which I used for most of my developing experience, _Code Ontology_ and reports included. The former allowed me to experiment with code parsing ([spoon](http://spoon.gforge.inria.fr/)) and **OWL** technologies ([protégé](https://protege.stanford.edu/), [Apache Jena/Fuseki](https://jena.apache.org/index.html) and [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)), while several of the latter were written in Latex, some in Markdown. Data-oriented projects heavily relied on **MATLAB** and the python data scientist tools: **numpy**, **sklearn**, **pandas** analysis-wise, and **keras** on the learning-side.
-
-My back-end and front-end development involved **Code Igniter**, **Laravel**, **Bootstrap**, and a brief overlook of the Google Hangouts API.
+### Skills
+I'm proficient in **Python**, which I use for most of my developing tasks, ranging from data mining (sklearn) to machine learning (pytorch). In the past I've experimented with some code parsing ([spoon](http://spoon.gforge.inria.fr/)) and **OWL** technologies ([protégé](https://protege.stanford.edu/), [Apache Jena/Fuseki](https://jena.apache.org/index.html) and [SPARQL](https://www.w3.org/TR/rdf-sparql-query/)). My back-end and front-end development involved Jekyll, Code Igniter, Laravel, Bootstrap, and a brief overlook of the Google Hangouts API.
 
 
 My develop setup includes version control (**git**), virtual machines (**vagrant**) and UNIX utilities.
@@ -74,4 +80,6 @@ What more than that? I'm intrigued by the startup world and its ability to chang
 While in Pisa I attended several [seminars on the ICT industry](https://www.di.unipi.it/en/17-education/1088-research-innovation-and-future-of-ict) and I'm currently pursuing the [PhD+ program](https://www.unipi.it/index.php/phd-plus).
 
 * * *
+
+
 Looking for an offline version? Download the [pdf]({{ site.baseurl }}/docs/cv.pdf).

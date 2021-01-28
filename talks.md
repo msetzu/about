@@ -7,7 +7,39 @@ permalink: /talks
 A list of my talks and presentations.
 
 
-### ECML/PKDD 2019 talks
+
+### GLocalX
+
+Slides on GLocalX, from "GLocalX - From Local to Global Explanations of Black Box AI Models".
+
+<a class='slides' href='https://docs.google.com/presentation/d/1g2HCMUrfA_aR4xQm-Bgr4pIPXZtE6rttjNfyoSySQT0/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+---
+
+### Ph.D. proposal
+
+<a class='slides' href='https://docs.google.com/presentation/d/1XcUoK3efHUsFZzzVY8Khgymi-IHAN0kEgxAgX_n_kYA/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+---
+
+### Understanding the role of individual units in a deep neural network
+
+<a class='slides' href='https://docs.google.com/presentation/d/1m9QVj-SY_PCCqiXwnf8Gas1HsFlCB_be6b-_kiHmj2w/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+### Presentations about the ECML/PKDD 2019 conference
+
 <p class='date'>5/11/2019</p>
 
 Presentation on several papers from the ECML/PKDD 2019 conference.

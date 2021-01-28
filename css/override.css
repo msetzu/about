@@ -172,10 +172,76 @@ ul.navigation li a:hover {
   color: #147BAF !important;
 }
 
-.github i:hover,
+/* .github i:hover,
 .mail i:hover,
 .cv i:hover {
   color: #24292E !important;
+} */
+
+.github i:hover,
+.mail i:hover {
+  color: #24292E !important;
+}
+
+.read i:hover {
+  color: #da6d6d !important;
+}
+
+button.ui.black.publication.github:hover {
+  background: #24292E !important;
+}
+
+button.ui.black.publication.github:hover>i {
+  color: white !important;
+}
+
+button.ui.red.publication.read:hover {
+  background: #da6d6d !important;
+}
+
+.publication i:hover {
+  color: white !important;
+}
+
+.publication i.fas.fa-newspaper {
+  color: #da6d6d !important;
+}
+
+.publication i.fas.fa-newspaper:hover {
+  color: white;
+}
+
+/* Links in publications list */
+a.ui.button.github.publication {
+  background: transparent;
+  border: 1px solid #24292E;
+  border-radius: 4px !important;
+}
+
+a.ui.button.github.publication i {
+  color: #24292E  !important;
+}
+
+a.ui.button.github.publication:hover {
+  background: #24292E;
+}
+
+a.ui.button.github.publication:hover i {
+  color: white !important;
+}
+
+a.ui.button.cv.publication {
+  background: transparent;
+  border: 1px solid #da6d6d;
+  border-radius: 4px !important;
+}
+
+a.ui.button.cv.publication:hover {
+  background: #da6d6d;
+}
+
+a.ui.button.cv.publication:hover i.fas.fa-newspaper {
+  color: white !important;
 }
 
 .navigation > .read.navigation__item {
