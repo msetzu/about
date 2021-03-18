@@ -6,6 +6,11 @@ permalink: /cv
 
 ### Work experience
 
+#### [University of Pisa](https://www.unipi.it/), Teaching Assistant for the "Programming Fundamentals" course 
+
+<i class="fa fa-calendar"></i> January 2019 -- May 2019  | <i class="fa fa-map-marker"></i> Pisa, IT
+- Teaching assistance for the "Programming Fundamentals" course, a first-year course on programming fundamentals for Physics bachelor students.
+
 #### [Semantic Web Lab](http://swlab.unica.it/), Alumnus
 
 <i class="fa fa-calendar"></i> 2015 -- 2016  | <i class="fa fa-map-marker"></i> Cagliari, IT
