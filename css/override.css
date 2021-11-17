@@ -514,3 +514,17 @@ a.ui.button.cv.publication:hover i.fas.fa-newspaper {
     margin: 5px 0px !important;
   }
 }
+
+
+/***********/
+/* CV page */
+/***********/
+/* button */
+a.cv.note,
+i.fas.fa-file-pdf {
+  color: #da6d6d;
+}
+
+a.cv.github {
+  margin-left: 0.5em;
+}

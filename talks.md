@@ -7,14 +7,29 @@ permalink: /talks
 A list of my talks and presentations.
 
 
+### Ph.D. discussion
+
+<a class='slides' href='https://docs.google.com/presentation/d/1tix8D_8KHAoeFuqFRff5yAsDr2oMCkplVHWbLTmIVUg/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+---
+
 
 ### GLocalX
 
-Slides on GLocalX, from "GLocalX - From Local to Global Explanations of Black Box AI Models".
+GLocalX, from "GLocalX - From Local to Global Explanations of Black Box AI Models", presented at IJCAI 2021.
 
-<a class='slides' href='https://docs.google.com/presentation/d/1g2HCMUrfA_aR4xQm-Bgr4pIPXZtE6rttjNfyoSySQT0/edit?usp=sharing'>
+<a class='slides' href='https://docs.google.com/presentation/d/1NtdHVafSCWHok7vgkGQnTIEmnQIBSrC5baV8xhBPgIQ/edit?usp=sharing'>
 <button class="ui button slides">
   Slides
+</button>
+</a>
+<a class='slides' href='https://drive.google.com/file/d/1WUf9hnSFbVG1wISIt1DFKwb_OSOJ6iMa/view?usp=sharing'>
+<button class="ui button slides">
+  Poster
 </button>
 </a>
 
@@ -31,6 +46,7 @@ Slides on GLocalX, from "GLocalX - From Local to Global Explanations of Black Bo
 ---
 
 ### Understanding the role of individual units in a deep neural network
+KDD Lab seminars on Explainability.
 
 <a class='slides' href='https://docs.google.com/presentation/d/1m9QVj-SY_PCCqiXwnf8Gas1HsFlCB_be6b-_kiHmj2w/edit?usp=sharing'>
 <button class="ui button slides">

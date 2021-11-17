@@ -6,38 +6,50 @@ permalink: /research
 
 ### Publications
 
-Published papers.
+**TripleX: Triples for Explanation**<br>
+_Mattia Setzu, Anna Monreale, Pasquale Minervini_<br>
+[The Third IEEE International Conference on Cognitive Machine Intelligence](http://www.sis.pitt.edu/lersais/conference/cogmi/2021/camera_ready.html), 2021<br>
 
-- **GLocalX - From Local to Global Explanations of Black Box AI Models**  _Mattia Setzu, Riccardo Guidotti, Anna Monreale, Franco Turini, Dino Pedreschi, and Fosca Giannotti_; Journal of Artificial Intelligence
+<a class="cv note" href="">
+  <i class="fas fa-file-pdf"></i> Paper to appear
+</a>
+<a class="cv github" href="https://github.com/msetzu/triplex">
+  <i class="fab fa-github"></i> Github
+</a>
 
-  <div class="two ui contacts">
-  	<a class="mini ui button github publication" href="https://www.github.com/msetzu/glocalx" title="GLocalX on GitHub" target="_blank"><i class="fab fa-github"></i></a>
-  	<a class="mini ui button cv publication" href="https://www.sciencedirect.com/science/article/abs/pii/S0004370221000084"><i class="fas fa-newspaper" target="_blank"></i></a>
-  </div>
-  
-- **Global Explanations with Local Scoring**, _Mattia Setzu, Riccardo Guidotti, Anna Monreale, and Franco Turini; Proceeding for the joint ECML/PKDD conference, 2016.
+--- 
 
-  <div class="two ui contacts">
-  	<a class="mini ui button github publication" href="https://github.com/msetzu/rule-relevance-score/" title="GLocalX on GitHub" target="_blank"><i class="fab fa-github"></i></a>
-  	<a class="mini ui button cv publication" href="https://link.springer.com/chapter/10.1007/978-3-030-43823-4_14"><i class="fas fa-newspaper" target="_blank"></i></a>
-  </div>
+**GLocalX - From Local to Global Explanations of Black Box AI Models**<br>
+_Mattia Setzu, Riccardo Guidotti, Anna Monreale, Franco Turini, Dino Pedreschi, and Fosca Giannotti_<br>
+[Journal of Artificial Intelligence](https://www.sciencedirect.com/journal/artificial-intelligence), 2021<br>
+[International Joint Conference on Artificial Intelligence](https://ijcai-21.org/), 2021
 
-- **SPARQL Queries over Source Code**, _Setzu Mattia, Atzori Maurizio_; Proceedings for the International Conference on Semantic Computing (ICSC), Feb. 2016.
+<a class="cv note" href="https://www.sciencedirect.com/science/article/pii/S0004370221000084">
+  <i class="fas fa-file-pdf"></i> Paper
+</a>
+<a class="cv github" href="https://github.com/msetzu/glocalx">
+  <i class="fab fa-github"></i> Github
+</a>
 
-  <div class="ui contacts">
-  	<a class="mini ui button cv publication" href="https://ieeexplore.ieee.org/document/7439313"><i class="fas fa-newspaper" target="_blank"></i></a>
-  </div>
+---
 
-- **CodeOntology: a Java semantic database**, _Setzu Mattia, Atzori Maurizio_; Undergraduate Research Competition at the International Conference for Management of Data (SIGMOD), Jun. 2016.
-_[Retired due to problems attending the conference]_.
+**Global Explanations with Local Scoring**<br>
+_Mattia Setzu, Riccardo Guidotti, Anna Monreale, and Franco Turini_<br>
+[ECML/PKDD conference](https://ecmlpkdd2019.org/), 2019
 
-### Papers & reports
-<a href="https://github.com/msetzu/data-mining/blob/master/dm-report.pdf">Human Resources Analysis</a>, _Naretto Francesca, Setzu Mattia, Zhilla Celeste_, an analysis of the <a href="https://www.kaggle.com/ludobenistant/hr-analytics/">Human Resources dataset</a> from Kaggle.
+<a class="cv note" href="https://link.springer.com/chapter/10.1007/978-3-030-43823-4_14">
+  <i class="fas fa-file-pdf"></i> Paper
+</a>
+<a class="cv github" href="https://github.com/msetzu/rule-relevance-score">
+  <i class="fab fa-github"></i> Github
+</a>
 
-* * *
+---
 
-<a href="https://github.com/msetzu/advanced-programming">Computational Graph</a>, _Setzu Mattia_, a Java implementation of a _DAG-like_ machine learning model.
+**SPARQL Queries over Source Code**<br>
+_Mattia Setzu, Maurizio Atzori_<br>
+[International Conference on Semantic Computing](https://ieeexplore.ieee.org/xpl/conhome/7437671/proceeding), 2016.
 
-* * *
-
-<a href="https://github.com/msetzu/AAlgorithms/blob/master/main.pdf">Advanced Algorithms</a>, _Setzu Mattia, Vinciguerra Giorgio_, Report on advanced algorithms and techniques such as _hashing_, _fingerprint_, _data streams_, _sketches_, _randomized_ and _memory-efficient_ algorithms, and _r-approximated_ solutions.
+<a class="cv note" href="https://ieeexplore.ieee.org/document/7439313">
+  <i class="fas fa-file-pdf"></i> Paper
+</a>
