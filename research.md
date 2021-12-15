@@ -4,7 +4,7 @@ title: Research
 permalink: /research
 ---
 
-<style>
+<!-- <style>
   /* code-like highlights are too large here */
   .highlight {
     padding: 0 !important;
@@ -22,7 +22,7 @@ permalink: /research
   .highlight pre.lineno {
       display: none;
   }
-</style>
+</style> -->
 
 ## Publications
 
