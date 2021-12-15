@@ -6,6 +6,13 @@ permalink: /talks
 
 A list of my talks and presentations.
 
+### TriplEx at CogMI2021
+<a class='slides' href='https://docs.google.com/presentation/d/13VpHcMqN7FHv-tGDULCTfd-KArEBzk8ylzu5LD_0xf0/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
 
 ### Ph.D. discussion
 
