@@ -4,6 +4,26 @@ title: Research
 permalink: /research
 ---
 
+<style>
+  /* code-like highlights are too large here */
+  .highlight {
+    padding: 0 !important;
+  }
+
+  td.rouge-gutter.gl {
+      padding: 0;
+  }
+
+  .highlight pre {
+      margin: 0;
+  }
+
+  /* no line numbers */
+  .highlight pre.lineno {
+      display: none;
+  }
+</style>
+
 ## Publications
 
 **TripleX: Triples for Explanation**<br>
