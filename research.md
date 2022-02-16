@@ -100,6 +100,7 @@ generates tags
 scope:local
 scope:global
 scope:local to global
+scope:sub-global
 ```
 
 n-tags allow for varying levels of specificity and compositionality. Moreover, when dealing with unclear or overly general papers the prefix can be omitted. For instance, if we are dealing with a paper on explanatory interactive learning (prefix  `xil:`) and the type of explanation provided to the user is not specified we can just use the tag `xil:`. On the other hand, if the paper specifies it, we can insert it as a suffix, e.g. `xil:feature:importance`, `xil:decision rules`.
@@ -200,7 +201,7 @@ Is it a counterfactual? Feature importance (saliency and word importance include
 aut:grammar | aut:automaton |
 caption |
 counterfactual |
-decision rules |
+decision rules | oblique decision rules |
 feature:importance | feature:interaction |
 graph nodes | graph edges |
 input importance |
@@ -250,7 +251,8 @@ multiclass classification |
 probing | prompting |
 natural language inference | qa | fact checking |
 regression | ordinal regression |
-st graphs
+st graphs |
+kg-to-text | concepts-to-text
 ```
 
 - `benchmarking` generic papers on benchmarking (XAI included)
@@ -327,7 +329,7 @@ markov network | logic network |
 logic programming | logic program induction | theorem proving |
 reasoning |
 answer set programming |
-adaptive |
+adaptive | fuzzy
 ```
 
 - `markov network` markov networks
@@ -337,6 +339,7 @@ adaptive |
 - `theorem proving` can we prove a theorem?
 - `reasoning`  reasoning in neural models
 - `adaptive` adaptive logic
+- `fuzzy` fuzzy logic
 
 ---
 
@@ -355,7 +358,7 @@ mip | ilp |
 optimal transport |
 sat | maxsat |
 set cover |
-polyhedral learning
+polyhedral learning | polytope | polytope approximation
 ```
 
 - `search` search in a combinatorial space
@@ -637,13 +640,13 @@ bayes | shapley | bandits | mutual information
 `nlp:`
 
 ```
-attention | multi-head attention |
+attention | transformer |
 language model | perplexity |
 qa | summarization | text similarity
 ```
 
 - `attention` defining and leveraging the attention mechanism
-- `multi-head attention` defining and leveraging the multi-head attention mechanism
+- `transformer` defining and leveraging the multi-head attention mechanism for Transformers
 - `qa` question answering
 
 ---
