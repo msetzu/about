@@ -248,7 +248,7 @@ entailment trees |
 interactive xai |
 masking |
 multiclass classification |
-probing | prompting |
+probing | prompting | prompt tuning | knowledge editing |
 natural language inference | qa | fact checking |
 regression | ordinal regression |
 st graphs |
@@ -261,6 +261,10 @@ kg-to-text | concepts-to-text
 - `interactive xai` XAI with interactive human intervention
 - `prompting` probing masked language models for knowledge
 - `probing` generic papers on probing techniques 
+- `prompt tuning` papers on injecting knowledge in language models through prompts
+- `knowledge editing` papers on editing beliefs of language models
+- `kg-to-text` papers on generating text from knowledge graphs
+- `concepts-to-text` papers on generating text from given concepts
 - `st graphs` structured graphs of belief
 
 ---
@@ -297,22 +301,13 @@ symbolic learning
 ```
 
 - `grammar` 
-
 - `regular grammar` regular grammars
-
 - `context-free grammar` context free grammars
-
 - `temporal grammar` temporal grammars
-
 - `dfa` deterministic finite state automata
-
 - `eps-dfa` epsilon deterministic finite state automata
-
 - `sym-dfa` symbolic dfa
-
 - `symbolic learning` learning (from) discrete symbols
-
-  
 
 ---
 
@@ -326,7 +321,8 @@ Papers on logic programming, logic-powered models and logic programs inductors.
 
 ```
 markov network | logic network |
-logic programming | logic program induction | theorem proving |
+answer set programming | logic programming | inductive logic programming | inductive logic programming:meta |
+theorem proving |
 reasoning |
 answer set programming |
 adaptive | fuzzy
@@ -335,7 +331,8 @@ adaptive | fuzzy
 - `markov network` markov networks
 - `logic network` neural models performing logic operations
 - `logic programming` logic programming
-- `logic programming induction` learning logic programs
+- `inductive logic programming` learning logic programs from data
+- `inductive logic programming` learning programs of logic programs from data
 - `theorem proving` can we prove a theorem?
 - `reasoning`  reasoning in neural models
 - `adaptive` adaptive logic
@@ -343,6 +340,12 @@ adaptive | fuzzy
 
 ---
 
+## Argumentation
+Papers on argumentation.
+
+`arg:`
+
+---
 
 
 ## Polyhedra and combinatorics
@@ -553,6 +556,7 @@ prototypes |
 backpropagation |
 boosting |
 boundary tree |
+differentiable tree
 capsule network |
 concept learning |
 decision tree | forest |
@@ -566,19 +570,12 @@ training
 ```
 
 - `model training` training
-
 - `distillation` distill models in other models
-
 - `concept learning` learning higher level features
-
 - `regularization` regularization
-
 - `constraints` learning the set of constraints inferred by a model/constraining a model behavior
-
 - `neurosymbolic` papers on neurosymbolic learning
-
 - `som` the self-organizing map
-
 - `transfer learning` leverage existing models in different domains/datasets/etc
 
   
