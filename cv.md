@@ -9,6 +9,17 @@ You can also find my academic CV [here]({{ site.baseurl }}/docs/cv_mattia_setzu_
 * * *
 
 ### Publications
+**TripleX: Triples for Explanation**<br>
+_Mattia Setzu, Anna Monreale, Pasquale Minervini_<br>
+[The Third IEEE International Conference on Cognitive Machine Intelligence](http://www.sis.pitt.edu/lersais/conference/cogmi/2021/camera_ready.html), 2021<br>
+
+<a class="cv note" href="">
+  <i class="fas fa-file-pdf"></i> Paper to appear
+</a>
+<a class="cv github" href="https://github.com/msetzu/triplex">
+  <i class="fab fa-github"></i> Github
+</a>
+
 
 **GLocalX - From Local to Global Explanations of Black Box AI Models**<br>
 _Mattia Setzu, Riccardo Guidotti, Anna Monreale, Franco Turini, Dino Pedreschi, and Fosca Giannotti_<br>

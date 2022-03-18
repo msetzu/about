@@ -556,13 +556,13 @@ prototypes |
 backpropagation |
 boosting |
 boundary tree |
-differentiable tree
+differentiable tree |
 capsule network |
 concept learning |
 decision tree | forest |
 distillation |
+program synthesis |
 graphical model
-neurosymbolic |
 regularization | constraints |
 transfer learning |
 som |
@@ -572,9 +572,9 @@ training
 - `model training` training
 - `distillation` distill models in other models
 - `concept learning` learning higher level features
+- `program synthesis` papers on synthesizing programs from data
 - `regularization` regularization
 - `constraints` learning the set of constraints inferred by a model/constraining a model behavior
-- `neurosymbolic` papers on neurosymbolic learning
 - `som` the self-organizing map
 - `transfer learning` leverage existing models in different domains/datasets/etc
 

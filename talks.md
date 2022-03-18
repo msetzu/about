@@ -6,7 +6,21 @@ permalink: /talks
 
 A list of my talks and presentations.
 
+### GLocalX at Imperial
+<p class='date'>17/3/2022</p>
+<a class='slides' href='https://docs.google.com/presentation/d/10jkZpy4jT1R1VXsriGEyXHJa8I_IM5HVX3RKJApuMBQ/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+<a class='slides' href='http://xaiseminars.doc.ic.ac.uk/'>
+<button class="ui button slides">
+  Link
+</button>
+</a>
+
 ### TriplEx at CogMI2021
+<p class='date'>14/12/2021</p>
 <a class='slides' href='https://docs.google.com/presentation/d/13VpHcMqN7FHv-tGDULCTfd-KArEBzk8ylzu5LD_0xf0/edit?usp=sharing'>
 <button class="ui button slides">
   Slides
@@ -26,9 +40,8 @@ A list of my talks and presentations.
 
 
 ### GLocalX
-
 GLocalX, from "GLocalX - From Local to Global Explanations of Black Box AI Models", presented at IJCAI 2021.
-
+<p class='date'>10/8/2021</p>
 <a class='slides' href='https://docs.google.com/presentation/d/1NtdHVafSCWHok7vgkGQnTIEmnQIBSrC5baV8xhBPgIQ/edit?usp=sharing'>
 <button class="ui button slides">
   Slides
@@ -43,7 +56,7 @@ GLocalX, from "GLocalX - From Local to Global Explanations of Black Box AI Model
 ---
 
 ### Ph.D. proposal
-
+<p class='date'>10/11/2021</p>
 <a class='slides' href='https://docs.google.com/presentation/d/1XcUoK3efHUsFZzzVY8Khgymi-IHAN0kEgxAgX_n_kYA/edit?usp=sharing'>
 <button class="ui button slides">
   Slides
