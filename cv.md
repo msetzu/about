@@ -9,12 +9,12 @@ You can also find my academic CV [here]({{ site.baseurl }}/docs/cv_mattia_setzu_
 * * *
 
 ### Publications
-**TripleX: Triples for Explanation**<br>
+**TripleX: Triple Extraction for Explanation**<br>
 _Mattia Setzu, Anna Monreale, Pasquale Minervini_<br>
 [The Third IEEE International Conference on Cognitive Machine Intelligence](http://www.sis.pitt.edu/lersais/conference/cogmi/2021/camera_ready.html), 2021<br>
 
-<a class="cv note" href="">
-  <i class="fas fa-file-pdf"></i> Paper to appear
+<a class="cv note" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9750350&casa_token=eqUTNf_4de4AAAAA:rgqWor1vPmGZaKgF9nnVneqUus41oFV8zR0ZjMVk86KKIqnTOM2bWUUMq4X9gxshfKAEn_7fKOc&tag=1">
+  <i class="fas fa-file-pdf"></i> Paper
 </a>
 <a class="cv github" href="https://github.com/msetzu/triplex">
   <i class="fab fa-github"></i> Github
@@ -78,9 +78,9 @@ _Mattia Setzu, Maurizio Atzori_<br>
 
 #### Ph.D. in Computer Science
 [University of Pisa](https://www.di.unipi.it/it/) |
-<i class="fa fa-calendar"></i> Nov 2018 -- Mar 2022
+<i class="fa fa-calendar"></i> Nov 2018 -- May 2022
 
-Currently I'm a Ph.D. candidate at University of Pisa
+Ph.D. in Computer Science at University of Pisa with the thesis "Opening the Black Box: Empowering Machine Learning Models with Explanations"
 
 #### Master's degree in Computer Science
 [University of Pisa](https://www.di.unipi.it/it/) (110 with honors) |

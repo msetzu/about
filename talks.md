@@ -6,6 +6,22 @@ permalink: /talks
 
 A list of my talks and presentations.
 
+### Ph.D. defense
+<a class='slides' href='https://docs.google.com/presentation/d/1wd57LGu7BJ8qI54c3Gzs1A9EMHRUQg2nU47wdGl0H9I/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+### Seminar on Transformers at Scuola Normale
+Joint presentation with [Carlo Metta](https://www.linkedin.com/in/carlo-metta-406194192/).<br>
+<a class='slides' href='https://docs.google.com/presentation/d/1eP8BEH7GOPMO1kHNL9mu1meVy-mRPRZLhf1KwlwHxFs/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+
 ### GLocalX at Imperial
 <p class='date'>17/3/2022</p>
 <a class='slides' href='https://docs.google.com/presentation/d/10jkZpy4jT1R1VXsriGEyXHJa8I_IM5HVX3RKJApuMBQ/edit?usp=sharing'>
