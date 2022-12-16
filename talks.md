@@ -24,6 +24,18 @@ Invited talk at Banca Intesa.<br>
 
 ---
 
+### Bad researcher, bad developer
+<p class='date'>15/11/2022</p>
+Seminar on coding for research.<br>
+
+---
+
+### Reading fast and slow
+<p class='date'>8/11/2022</p>
+Seminar on literature management for research.<br>
+
+---
+
 ### Ph.D. defense
 <a class='slides' href='https://docs.google.com/presentation/d/1wd57LGu7BJ8qI54c3Gzs1A9EMHRUQg2nU47wdGl0H9I/edit?usp=sharing'>
 <button class="ui button slides">
