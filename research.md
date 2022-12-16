@@ -210,6 +210,7 @@ multi-modal |
 natural language |
 neuron importance |
 prototypes |
+proof |
 shapelet |
 structural equations |
 taxonomy |

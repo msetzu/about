@@ -6,12 +6,32 @@ permalink: /talks
 
 A list of my talks and presentations.
 
+
+
+### Seminar on Transformers at Scuola Normale
+<p class='date'>15/11/2022</p>
+
+---
+
+### GLocalX @Intesa
+<p class='date'>1/12/2022</p>
+Invited talk at Banca Intesa.<br>
+<a class='slides' href='https://docs.google.com/presentation/d/10cpWMltKTPK_8c2vbvBWZH_vHYK_VF0QvNN-gmIOQbU/edit?usp=sharing'>
+<button class="ui button slides">
+  Slides
+</button>
+</a>
+
+---
+
 ### Ph.D. defense
 <a class='slides' href='https://docs.google.com/presentation/d/1wd57LGu7BJ8qI54c3Gzs1A9EMHRUQg2nU47wdGl0H9I/edit?usp=sharing'>
 <button class="ui button slides">
   Slides
 </button>
 </a>
+
+---
 
 ### Seminar on Transformers at Scuola Normale
 Joint presentation with [Carlo Metta](https://www.linkedin.com/in/carlo-metta-406194192/).<br>
@@ -21,6 +41,7 @@ Joint presentation with [Carlo Metta](https://www.linkedin.com/in/carlo-metta-40
 </button>
 </a>
 
+---
 
 ### GLocalX at Imperial
 <p class='date'>17/3/2022</p>
@@ -35,6 +56,8 @@ Joint presentation with [Carlo Metta](https://www.linkedin.com/in/carlo-metta-40
 </button>
 </a>
 
+---
+
 ### TriplEx at CogMI2021
 <p class='date'>14/12/2021</p>
 <a class='slides' href='https://docs.google.com/presentation/d/13VpHcMqN7FHv-tGDULCTfd-KArEBzk8ylzu5LD_0xf0/edit?usp=sharing'>
@@ -43,6 +66,7 @@ Joint presentation with [Carlo Metta](https://www.linkedin.com/in/carlo-metta-40
 </button>
 </a>
 
+---
 
 ### Ph.D. discussion
 
