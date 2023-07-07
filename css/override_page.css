@@ -2,17 +2,24 @@ body {
 	overflow-x: hidden;
 }
 
+#header_bar {
+  display: block;
+}
+
 header {
 	display: block;
-	height: 100% !important;
+/*	height: 100% !important;*/
 	margin: 0 !important;
 	background-image: none !important;
 	box-shadow: none;
 }
 
 header.panel-cover {
-	background: #24292E !important;
-	box-shadow: 0 1em 1em -1em rgba(0, 0, 0, .25);
+	display: none;
+}
+
+.cover-navigation {
+	display: none;
 }
 
 hr {

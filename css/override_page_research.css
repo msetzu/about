@@ -15,3 +15,7 @@ td.rouge-gutter.gl {
 .highlight pre.lineno {
     display: none;
 }
+
+pre {
+    color: black;
+}

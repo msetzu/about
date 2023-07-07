@@ -1,0 +1,54 @@
+<span class="mobile btn-mobile-menu">
+  <i class="icon icon-list btn-mobile-menu__icon"></i>
+  <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+</span>
+
+<header class="panel-cover">
+  <div class="panel-main">
+
+    <div class="panel-main__inner panel-inverted">
+    <div class="panel-main__content">
+        <a href="{{ site.baseurl }}/" title="home">
+          <!-- <img src="{{ site.baseurl }}/images/cv.jpg" class="user-image" alt="Mattia Setzu"> -->
+          <!-- <h1 class="panel-cover__title panel-title">{{ site.title }}</h1> -->
+        </a>
+        <hr class="panel-cover__divider">
+        <p class="panel-cover__description"><a href="{{ site.baseurl }}/">{{ site.description }}</a></p>
+        <hr class="panel-cover__divider panel-cover__divider--secondary">
+        <p class="main_bio">
+          I'm Mattia Setzu, a post-doc researcher at the Department of Computer Science of the <a href="https://www.di.unipi.it/en/phd">University of Pisa</a>, Italy.
+          I focus on Explainable AI, with the broad research goal of automating the understanding of complex machine learning models.
+        </p>
+        
+        <!-- <hr class="panel-cover__divider panel-cover__divider--secondary"> -->
+
+        <nav class="cover-navigation cover-navigation--primary">
+          <div class="ui buttons navigation" id="navigation_buttons">
+            <div class="five ui buttons" id="buttons">
+              <a class="large ui button" id="home" href="{{ site.baseurl }}/" id="home"><p><i class="fas fa-brain"></i> Home</p></a>
+              <a class="large ui button" id="about" href="{{ site.baseurl }}/me"><p><i class="fa fa-address-card"></i> About</p></a>
+              <a class="large ui button" id="papers" href="{{ site.baseurl }}/research"><p><i class="fas fa-graduation-cap"></i> Research</p></a>
+              <a class="large ui button" id="blog" href="{{ site.baseurl }}/#thoughts"><p><i class="fas fa-pen-nib"></i> Blog</p></a>
+              <a class="large ui button" id="talks" href="{{ site.baseurl }}/talks"><p><i class="fab fa-slideshare"></i> Talks</p></a>
+            </div>
+        </nav>
+        
+        <nav id="contacts_nav">
+          <div class="ui buttons navigation" id="contact_buttons">
+          <div class="five ui buttons">
+            <a class="large ui button">Contact me</a>
+            <a class="large ui button linkedin" href="https://www.linkedin.com/in/{{ site.author.linkedin_username }}" title="{{ site.author.linkedin_username }} on LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a class="large ui button github" href="https://www.github.com/{{ site.author.github_username }}" title="{{ site.author.github_username }} on GitHub" target="_blank"><i class="fab fa-github"></i></i></a>
+            <a class="large ui button mail" title="mailto:{{ site.author.email }}" href="mailto:{{ site.author.email }}"><i class="fas fa-at"></i></a>
+            <a class="large ui button cv" title="Curriculum Vitae" href="{{ site.baseurl }}/cv"><i class="fas fa-newspaper"></i></a>
+          </div>
+        </nav>  
+
+        <!-- </br> -->
+      </div>
+
+    </div>
+
+    <div class="panel-cover--overlay"></div>
+  </div>
+</header>

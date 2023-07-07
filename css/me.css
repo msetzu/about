@@ -1,0 +1,258 @@
+/* Fucked up navigation bar */
+.panel-main__inner.panel-inverted {
+    padding-top: 0;
+}
+
+/* Code blocks for bibtex and DOI */
+pre {
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+/* Contacts */
+.ui.buttons.header_contacts button {
+	background-color: transparent;
+	padding: 3px;
+}
+
+#inner_head_bar {
+    margin-top: 0;
+    background-color: #dedede;
+    border: none !important;
+    border-radius: 0 !important;
+}
+
+#inner_head_bar * {
+    color: black !important;
+}
+
+#inner_head_bar a.button:hover {
+	background-color: #8f8f8f !important;
+}
+
+#head_bar {
+    margin-bottom: 0;
+    border: none;
+}
+
+#head_bar #about {
+	background-color: #dedede !important;
+	color: black !important;
+}
+
+#head_bar #about * {
+	color: black !important;
+}
+
+/* Papers */
+.meta .authors {
+	font-style: italic;
+}
+
+.right.menu .item i {
+	background-color: transparent !important;
+	color: #999999;
+}
+
+
+.right.menu .ui.label {
+	background-color: transparent !important;
+}
+
+.right.menu .paper:hover {
+	color: #da6d6d !important;
+}
+
+.right.menu .download:hover {
+	color: #73ad72 !important;
+}
+
+.right.menu .github:hover {
+	color: black !important;
+}
+
+.right.menu .package:hover {
+	color: #eedc00 !important;
+}
+
+.right.menu .ui.label.doi::before {
+	content: "DOI: ";
+}
+
+.right.menu .ui.label.doi {
+	float:right;
+}
+
+/* Copy button for bibtex */
+.content .bibtex .fa-copy {
+	color: #1f1f1f;
+}
+
+.content .fa-check,
+.content .fa-check + .temporary {
+	color: #73ad72;
+}
+
+.button.slides {
+	margin-left: 1em;
+}
+
+button.download:hover {
+	background: #73ad72 !important;
+}
+
+.papers .item .bibtex.active,
+.papers .item .doi.active {
+	padding-bottom: 3em;
+}
+
+/* buttons for bibtex  */
+.papers .item .action {
+     float: left;
+}
+
+.papers .item .bibtex .button,
+.papers .item .doi .button {
+    margin-right: auto;
+}
+
+/* Software section */
+div#software {
+    margin-top: 2em;
+}
+
+#software .extra .paper:hover {
+	background-color: #da6d6d !important;
+}
+
+#software .extra .paper:hover i {
+	color: white;
+}
+
+#software .extra .paper {
+	background-color: #e0e1e2 !important;
+}
+
+#software .extra .github:hover {
+	background-color: black !important;
+}
+
+#software .extra .github:hover i,
+#software .extra .github i:hover {
+	color: white !important;
+}
+
+#software .extra .package:hover {
+	background-color: #eedc00 !important;
+}
+
+div#education,
+div#publications,
+div#software,
+div#presentations {
+	margin-top: 2em !important;
+}
+
+#education .item .content.title,
+#education .title {
+	font-weight: bold;
+	font-size: large;
+	margin-bottom: auto;
+}
+
+#education .segment i {
+	margin-left: 5px;
+}
+
+#education .right.float {
+	float: right;
+}
+
+#education i.calendar {
+	margin-left: 5px;
+}
+
+#education .ui.grid .three.column .left.floated {
+	width: auto !important;
+	margin-right: 5px;
+}
+
+#education .ui.grid .middle.column {
+	width: auto !important;
+}
+
+#education .ui.grid .three.column .right.floated {
+	width: auto !important;
+	margin-left: 10px;
+}
+
+#education .column.float.left {
+    float: left;
+    width: auto !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#education .column.float.right {
+    margin-left: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.education .row {
+	border: 5px black;
+}
+
+#education .timeline {
+	width: auto;
+	float: right;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#presentations .list .item i {
+    display: flex;
+    float: left;
+    margin-right: 0;
+}
+
+#presentations .list .item .content {
+    display: inline-block;
+}
+
+#presentations button {
+    padding: 0.5em;
+}
+
+#presentations button.ui.button.slides {
+    vertical-align: top;
+}
+
+#presentations a.header {
+    color: black !important;
+}
+
+
+.contacts .item .content {
+	display: inline-block;
+}
+
+.contacts .item i {
+    display: inline-block;
+    vertical-align: super;
+    color: black !important;
+    margin-right: 0.25em;
+}
+
+#presentations .list .item > a {
+    float: right;
+}
+
+#publications .papers .item .slides i {
+    vertical-align: middle;
+    margin-right: 0.5em;
+}

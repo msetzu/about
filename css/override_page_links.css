@@ -1,0 +1,19 @@
+#inner_head_bar {
+	display: none
+}
+
+#head_bar #contacts_button i {
+	color: black !important;
+}
+#head_bar #contacts_button {
+	background-color: #dedede !important;
+	color: black !important;
+}
+
+.contacts .item i {
+	color: black !important;
+}
+
+.contacts .item .content {
+	display: inline-block;
+}

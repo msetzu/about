@@ -6,7 +6,7 @@ baseurl: "/about" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 author:
-  email: m.setzu@outlook.com
+  email: mattia.setzu@unipi.it
   github_username:  msetzu
   linkedin_username: mattia-setzu-062b01158
 
@@ -15,8 +15,8 @@ markdown: redcarpet
 plugins_dir:
   - jekyll-feed
 
-font-awesome:
-  assets: true
+# font-awesome:
+#   assets: true
 
 defaults:
   -
@@ -52,6 +52,11 @@ kramdown:
       line_numbers: true
       start_line: 1
 
-gems: [jekyll-paginate, jekyll-scholar]
-plugins_dir: ['jekyll-paginate', 'jekyll-font-awesome-sass', 'jekyll/scholar']
+plugins:
+  - jekyll-paginate
+  - jekyll-scholar
+  - jemoji
+  # - jekyll-font-awesome-sass
+# plugins_dir: ['jekyll-paginate', 'jekyll-font-awesome-sass', 'jekyll/scholar', 'jemoji']
+plugins_dir: ['jekyll-paginate', 'jekyll/scholar', 'jemoji']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

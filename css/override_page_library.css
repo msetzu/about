@@ -1,0 +1,12 @@
+#inner_head_bar {
+	display: none
+}
+
+#head_bar #papers i {
+	color: black !important;
+}
+
+#head_bar #papers {
+	background-color: #dedede !important;
+	color: black !important;
+}
