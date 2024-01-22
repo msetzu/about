@@ -1,6 +1,6 @@
 <header id="header_bar">
 	<div class="ui small menu" id="head_bar">
-		<div class="four ui buttons" id="buttons">
+		<div class="five ui buttons" id="buttons">
 			<a class="item ui button" id="home" href="{{ site.baseurl }}/" id="home"><i class="fa-light fa-house"></i>Home</a>
 			<a class="item ui button" id="about" href="{{ site.baseurl }}/me"><i class="fa-light fa-address-card"></i>About me</a>
 			<a class="item ui button" id="papers" href="{{ site.baseurl }}/research"><i class="fa-light fa-book-open-cover"></i>Library</a>
@@ -11,6 +11,7 @@
 		<div class="ui buttons" id="buttons">
 			<a class="item ui button" id="home" href="{{ site.baseurl }}/me#publications" id="home"><i class="fa-light fa-file"></i>Papers</a>
 			<a class="item ui button" id="about" href="{{ site.baseurl }}/me#education"><i class="fa-light fa-graduation-cap"></i>Education</a>
+			<!-- <a class="item ui button" id="about" href="{{ site.baseurl }}/me#education"><i class="fa-light fa-graduation-cap"></i>Teaching</a> -->
 			<a class="item ui button" id="papers" href="{{ site.baseurl }}/me#software"><i class="fab fa-github"></i>Software</a>
 			<a class="item ui button" id="blog" href="{{ site.baseurl }}/me#presentations"><i class="fa-light fa-presentation-screen"></i>Talks</a>
 		</div>
@@ -38,51 +39,59 @@
 					I focus on Explainable AI, with the broad research goal of automating the understanding of complex machine learning models.
 				</p>
 
-				<nav class="cover-navigation cover-navigation--primary" id="primary_bar">
+		<nav class="cover-navigation cover-navigation--primary" id="primary_bar">
           <div class="three large ui buttons" id="buttons">
           	<a class="item ui button" id="about" href="{{ site.baseurl }}/me"><i class="fa-light fa-address-card"></i>About me</a>
           	<a class="item ui button" id="papers" href="{{ site.baseurl }}/research"><i class="fa-light fa-book-open-cover"></i>Library</a>
           	<a class="item ui button" id="contacts_button" href="{{ site.baseurl }}/links"><i class="fa-light fa-at"></i>Contacts</a>
         	</div>
         </nav>
-				<nav class="cover-navigation cover-navigation--primary" id="secondary_bar">
-          <div class="ui four tiny buttons" id="secondary_buttons">
-						<!-- <a class="item ui button" id="papers" href="{{ site.baseurl }}/me#publications" id="home"><i class="fa-light fa-file"></i>Papers</a> -->
-						<a class="item ui animated fade button" id="papers" href="{{ site.baseurl }}/me#publications">
-							<div class="ui button" tabindex="0">
-							  <div class="visible content"><i class="fa-light fa-file"></i></div>
-							  <div class="hidden content">
-							    Publications
-							  </div>
-							</div>
-						</a>
-						<a class="item ui button animated fade" href="{{ site.baseurl }}/me#education">
-							<div class="ui button" tabindex="0">
-							  <div class="visible content">
-								<i class="fa-light fa-graduation-cap"></i>
-								</div>
-								<div class="hidden content">Education</div>
-							</div>
-						</a>
-						<a class="item ui button animated fade" href="{{ site.baseurl }}/me#software">
-							<div class="ui button" tabindex="0">
-							  <div class="visible content">
-								<i class="fab fa-github"></i>
-								</div>
-								<div class="hidden content">Software</div>
-							</div>
-						</a>
-						<a class="item ui button animated fade" href="{{ site.baseurl }}/me#presentations">
-							<div class="ui animated fade button" tabindex="0">
-							  <div class="visible content">
-								<i class="fa-light fa-presentation-screen"></i>
-								</div>
-								<div class="hidden content">Talks</div>
-							</div>
-						</a>
+		<nav class="cover-navigation cover-navigation--primary" id="secondary_bar">
+			<div class="ui four tiny buttons" id="secondary_buttons">
+				<!-- <a class="item ui button" id="papers" href="{{ site.baseurl }}/me#publications" id="home"><i class="fa-light fa-file"></i>Papers</a> -->
+				<a class="item ui animated fade button" id="papers" href="{{ site.baseurl }}/me#publications">
+					<div class="ui button" tabindex="0">
+						<div class="visible content"><i class="fa-light fa-file"></i></div>
+						<div class="hidden content">
+						Publications
+						</div>
 					</div>
+				</a>
+				<!-- <a class="item ui button animated fade" href="{{ site.baseurl }}/me#education">
+					<div class="ui button" tabindex="0">
+						<div class="visible content">
+						<i class="fa-light fa-graduation-cap"></i>
+						</div>
+						<div class="hidden content">Education</div>
+					</div>
+				</a> -->
+				<a class="item ui button animated fade" href="{{ site.baseurl }}/teaching">
+					<div class="ui button" tabindex="0">
+						<div class="visible content">
+						<i class="fa-light fa-graduation-cap"></i>
+						</div>
+						<div class="hidden content">Teaching</div>
+					</div>
+				</a>
+				<a class="item ui button animated fade" href="{{ site.baseurl }}/me#software">
+					<div class="ui button" tabindex="0">
+						<div class="visible content">
+						<i class="fab fa-github"></i>
+						</div>
+						<div class="hidden content">Software</div>
+					</div>
+				</a>
+				<a class="item ui button animated fade" href="{{ site.baseurl }}/me#presentations">
+					<div class="ui animated fade button" tabindex="0">
+						<div class="visible content">
+						<i class="fa-light fa-presentation-screen"></i>
+						</div>
+						<div class="hidden content">Talks</div>
+					</div>
+				</a>
+			</div>
       </nav>
-		</div>
+	</div>
   </div>
   </div>
 

@@ -10,14 +10,15 @@ permalink: /me
   	$(".menu .item").tab();
     $(".ui.sticky").sticky({
       context: '#body'
-    })
-;
+    });
     // Copy bibtex
 	});
 </script>
 
 <div class="ui sticky" id="body">
-I'm Mattia Setzu, a postdoc researcher (RTD-A) at [University of Pisa](https://di.unipi.it/).
+
+
+I'm Mattia Setzu, a postdoc researcher (RTD-A) University of Pisa.
 My research focuses on Explainable AI (XAI), specifically on tabular XAI and explainability for NLP models.
 
 Down here you can find infos on my <a href="#publications">publications</a>, <a href="#education">education</a>, <a href="#software">public software</a>, and <a href="#presentations">talks</a>.
@@ -29,6 +30,180 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
   </h1>
 
 <div class="ui divided items papers">
+  <div class="item" id="gentree">
+    <div class="content">
+      <a class="header">Generative Models for Decision Trees</a>
+      <div class="meta">
+        <p class="authors">Riccardo Guidotti, Anna Monreale, Mattia Setzu, Giulia Volpi</p>
+        <p class="venue">AAAI</p>
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract_10">Abstract</a>
+        <!-- <a class="item" data-tab="bibtex_10">BibTeX</a>
+        <a class="item" data-tab="doi_10">DOI</a> -->
+        <a class="item" data-tab="slides_10">Presentations</a>
+        <div class="right menu">
+          <div class="item">
+            <a href="{{ site.baseurl }}/docs/gentree.pdf" download="gentree.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="{{ site.baseurl }}/docs/gentree.pdf">
+              <i class="fa-regular fa-file-pdf paper"></i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/msetzu/gentree">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div>
+          <!-- <div class="item">
+            <a href="https://pypi.org/project/gentree/">
+              <i class="fa-light fa-box package"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_10">
+        <p>Decision trees are among the most popular supervised models due to their interpretability and knowledge representation resembling human reasoning. Commonly-used decision tree induction algorithms are based on greedy top-down strategies. 
+          Although these approaches are known to be an efficient heuristic, the resulting trees are only locally optimal and tend to have overly complex structures. 
+          On the other hand, optimal decision tree algorithms attempt to create an entire decision tree at once to achieve global optimality.
+          We place our proposal between these approaches by designing a generative model for decision trees.
+          Our method first learns a latent decision tree space through a variational architecture using pre-trained decision tree models.
+          Then, it adopts a genetic procedure to explore such latent space to find a compact decision tree with good predictive performance.
+          We compare our proposal against classical tree induction methods, optimal approaches, and ensemble models. 
+          The results show that our proposal can generate accurate and shallow, i.e., interpretable, decision trees.</p>
+      </div>
+      <!-- <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_10">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('gentree')"><i class="fa-regular fa-copy"></i></button>
+            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('gentree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@inproceedings{DBLP:conf/cogmi/SetzuMM21,
+  author       = {Mattia Setzu and
+                Anna Monreale and
+                Pasquale Minervini},
+  title        = {TRIPLEx: Triple Extraction for Explanation},
+  booktitle    = {CogMI},
+  pages        = {44--53},
+  publisher    = {{IEEE}},
+  year         = {2021}
+  }</code></pre>
+      </div> -->
+      <!-- <div class="doi ui bottom attached tab segment" data-tab="doi_10">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('gentree')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>10.1109/CogMI52975.2021.00015</code></pre>
+      </div> -->
+      <div class="slides ui bottom attached tab segment" data-tab="slides_10">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+              <a href="{{site.baseurl}}/docs/gentree_poster.pdf">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> Gentree poster @ AAAI24
+                </button>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="item" id="hansen">
+    <div class="content">
+      <a class="header">HANSEN: Human and AI Spoken Text Benchmark for Authorship Analysis</a>
+      <div class="meta">
+        <p class="authors">Nafis Tripto, Adaku Uchendu, Thai Le, Mattia Setzu, Fosca Giannotti, Dongwon Lee</p>
+        <p class="venue">EMNLP</p>
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract_9">Abstract</a>
+        <a class="item" data-tab="bibtex_9">BibTeX</a>
+        <a class="item" data-tab="doi_9">DOI</a>
+        <!-- <a class="item" data-tab="slides_9">Presentations</a> -->
+        <div class="right menu">
+          <div class="item">
+            <a href="https://aclanthology.org/2023.findings-emnlp.916.pdf" download="hansen.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="https://aclanthology.org/2023.findings-emnlp.916/">
+              <i class="fa-regular fa-file-pdf paper"></i>
+            </a>
+          </div>
+          <!-- <div class="item">
+            <a href="https://github.com/msetzu/hansen">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div> -->
+          <div class="item">
+            <a href="https://huggingface.co/datasets/HANSEN-REPO/HANSEN">
+              <i class="fa-light fa-box package"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_9">
+        <p>Authorship Analysis, also known as stylometry, has been an essential aspect of Natural Language Processing (NLP) for a long time. Likewise, the recent advancement of Large Language Models (LLMs) has made authorship analysis increasingly crucial for distinguishing between human-written and AI-generated texts. However, these authorship analysis tasks have primarily been focused on written texts, not considering spoken texts. Thus, we introduce the largest benchmark for spoken texts - \sf HANSEN( ̲Human  ̲ANd ai  ̲Spoken t ̲Ext be ̲Nchmark). \sf HANSEN encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B. To evaluate and demonstrate the utility of \sf HANSEN, we perform Authorship Attribution (AA) & Author Verification (AV) on human-spoken datasets and conducted Human vs. AI text detection using state-of-the-art (SOTA) models. While SOTA methods, such as, character n-gram or Transformer-based model, exhibit similar AA & AV performance in human-spoken datasets compared to written ones, there is much room for improvement in AI-generated spoken text detection. The \sf HANSEN benchmark is available at: https://huggingface.co/datasets/HANSEN-REPO/HANSEN</p>
+      </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_9">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('hansen')"><i class="fa-regular fa-copy"></i></button>
+            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('hansen')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@inproceedings{tripto-etal-2023-hansen,
+          title = "{HANSEN}: Human and {AI} Spoken Text Benchmark for Authorship Analysis",
+          author = "Tripto, Nafis  and
+            Uchendu, Adaku  and
+            Le, Thai  and
+            Setzu, Mattia  and
+            Giannotti, Fosca  and
+            Lee, Dongwon",
+          editor = "Bouamor, Houda  and
+            Pino, Juan  and
+            Bali, Kalika",
+          booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2023",
+          month = dec,
+          year = "2023",
+          address = "Singapore",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2023.findings-emnlp.916",
+          doi = "10.18653/v1/2023.findings-emnlp.916",
+          pages = "13706--13724",
+          abstract = "$\textit{Authorship Analysis}$, also known as stylometry, has been an essential aspect of Natural Language Processing (NLP) for a long time. Likewise, the recent advancement of Large Language Models (LLMs) has made authorship analysis increasingly crucial for distinguishing between human-written and AI-generated texts. However, these authorship analysis tasks have primarily been focused on $\textit{written texts}$, not considering $\textit{spoken texts}$. Thus, we introduce the largest benchmark for spoken texts - ${\sf HANSEN}$($\underline{H}$uman $\underline{AN}$d ai $\underline{S}$poken t$\underline{E}$xt be$\underline{N}$chmark). ${\sf HANSEN}$ encompasses meticulous curation of existing speech datasets accompanied by transcripts, alongside the creation of novel AI-generated spoken text datasets. Together, it comprises 17 human datasets, and AI-generated spoken texts created using 3 prominent LLMs: ChatGPT, PaLM2, and Vicuna13B. To evaluate and demonstrate the utility of ${\sf HANSEN}$, we perform Authorship Attribution (AA) {\&} Author Verification (AV) on human-spoken datasets and conducted Human vs. AI text detection using state-of-the-art (SOTA) models. While SOTA methods, such as, character n-gram or Transformer-based model, exhibit similar AA {\&} AV performance in human-spoken datasets compared to written ones, there is much room for improvement in AI-generated spoken text detection. The ${\sf HANSEN}$ benchmark is available at: https://huggingface.co/datasets/HANSEN-REPO/HANSEN",
+      }</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_9">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('hansen')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>10.18653/v1/2023.findings-emnlp.916</code></pre>
+      </div>
+      <!-- <div class="slides ui bottom attached tab segment" data-tab="slides_9">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+              <a href="{{site.baseurl}}/docs/hansen_poster.pdf">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> Gentree poster @ AAAI24
+                </button>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
+
   <div class="item" id="hdlm">
     <div class="content">
       <a class="header">Towards synergistic human-AI collaboration in hybrid decision-making systems</a>
@@ -37,11 +212,11 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <p class="venue reviewing">Under review</p>
       </div>
       <div class="ui top attached tabular menu">
-        <a class="item active" data-tab="abstract_7">Abstract</a>
+        <a class="item active" data-tab="abstract_8">Abstract</a>
       </div>
-      <div class="description ui bottom attached tab segment active" data-tab="abstract_7">
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_8">
         <p>A growing body of interdisciplinary literature indicates that human decision-making processes can be enhanced by Artificial Intelligence (AI). Nevertheless, the use of AI in critical domains has also raised significant concerns regarding its final users, those affected by the undertaken decisions, and the broader society. Consequently, recent studies are shifting their focus towards the development of human-centered frameworks that facilitate a synergistic human-machine collaboration while upholding ethical and legal standards. In this work, we present a taxonomy for hybrid decision-making systems to classify systems according to the type of interaction that occurs between human and artificial intelligence. Furthermore, we identify gaps in the current body of literature and suggest potential directions for future research.
-			 </p>
+      </p>
       </div>
     </div>
   </div>
@@ -49,17 +224,59 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
 
   <div class="item" id="trees">
     <div class="content">
-      <a class="header">Correlation and Unintended Biases on Univariate and Multivariate Decision Trees</a>
-      <div class="meta">
-        <p class="authors">Anonymous</p>
-        <p class="venue reviewing">Under review</p>
+    <a class="header">Correlation and Unintended Biases on Univariate and Multivariate Decision Trees</a>
+    <div class="meta">
+      <p class="authors">Mattia Setzu, Anna Monreale, Pasquale Minervini</p>
+      <p class="venue">IEEE Bigdata</p>
+    </div>
+    <div class="ui top attached tabular menu">
+      <a class="item active" data-tab="abstract_7">Abstract</a>
+      <!-- <a class="item" data-tab="bibtex_7">BibTeX</a> -->
+      <!-- <a class="item" data-tab="doi_7">DOI</a> -->
+      <!-- <a class="item" data-tab="slides_7">Presentations</a> -->
+      <div class="right menu">
+        <div class="item">
+          <a href="{{ site.baseurl }}/docs/trees.pdf" download="trees.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+        </div>
+        <div class="item">
+          <a href="{{ site.baseurl }}/docs/trees.pdf">
+            <i class="fa-regular fa-file-pdf paper"></i>
+          </a>
+        </div>
+        <div class="item">
+          <a href="https://github.com/msetzu/https://github.com/msetzu/Univariate-vs-multivariate-decision-trees">
+            <i class="fab fa-github github"></i>
+          </a>
+        </div>
+        <!-- <div class="item">
+          <a href="https://pypi.org/project/ohmt/">
+            <i class="fa-light fa-box package"></i>
+          </a>
+        </div> -->
       </div>
-      <div class="ui top attached tabular menu">
-        <a class="item active" data-tab="abstract_6">Abstract</a>
+    </div>
+    <div class="description ui bottom attached tab segment active" data-tab="abstract_7">
+      <p>Decision Trees (DTs) are accessible, interpretable, and well-performing classification models. A plethora of variants with increasing expressiveness has been proposed in the last 40 years. We contrast the two families of univariate DTs, whose split functions partition data through axis-parallel hyperplanes, and multivariate DTs, whose splits instead partition data through oblique hyperplanes. The latter include the former, hence multivariate DTs are in principle more powerful. Surprisingly enough, however, univariate DTs consistently show comparable performances in the literature. We analyze the reasons behind this, both with a synthetic and a large benchmark of datasets. Our research questions test whether the pre-processing phase of removing correlation among features in datasets has an impact on the relative performances of univariate vs multivariate DTs.</p>
+    </div>
+    <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_7">
+      <div class="ui bottom attached label">
+        <div class="ui small basic icon buttons action">
+          <button class="ui button copy" onclick="copy_bibtex_to_clipboard('trees')"><i class="fa-regular fa-copy"></i></button>
+          <a href="{{ site.baseurl }}/bibtex/setzu2023correlation.bib" download="setzu2023correlation.bib" onclick="download_bibtex('trees')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+        </div>
       </div>
-      <div class="description ui bottom attached tab segment active" data-tab="abstract_6">
-        <p>Decision Trees (DTs) are accessible, interpretable, and well-performing classification models. A plethora of variants with increasing expressiveness has been proposed in the last 40 years. We contrast the two families of univariate DTs, whose split functions partition data through axis-parallel hyperplanes, and multivariate DTs, whose splits instead partition data through oblique hyperplanes. The latter include the former, hence multivariate DTs are in principle more powerful. Surprisingly enough, however, univariate DTs consistently show comparable performances in the literature. We analyze the reasons behind this, both with a synthetic and a large benchmark of datasets. Our research questions test whether the pre-processing phase of removing correlation among features in datasets has an impact on the relative performances of univariate vs multivariate DTs.</p>
-	    </div>
+      <pre><code>@article{setzu2023correlation,
+        title={Correlation and Unintended Biases on Univariate and Multivariate Decision Trees},
+        author={Setzu, Mattia and Ruggieri, Salvatore},
+        journal={arXiv preprint arXiv:2312.01884},
+        year={2023}
+      }</code></pre>
+    </div>
+    <div class="doi ui bottom attached tab segment" data-tab="doi_7">
+      <div class="ui bottom attached label">
+      </div>
+      <pre><code></code></pre>
+    </div>
     </div>
   </div>
 
@@ -71,13 +288,87 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <p class="venue reviewing">Under review</p>
       </div>
       <div class="ui top attached tabular menu">
-        <a class="item active" data-tab="abstract_5">Abstract</a>
+        <a class="item active" data-tab="abstract_6">Abstract</a>
       </div>
-      <div class="description ui bottom attached tab segment active" data-tab="abstract_5">
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_6">
         <p>Language Models (LMs) have been shown to inherit undesired stereotypes that might hurt minorities and underrepresented groups if such systems were to be integrated into real-world applications without careful fairness auditing. This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that a LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and prediction likelihood, assessing predictions on a fairness dataset specifically designed to assess LMs' outputs' hurtfulness. Finally, we conclude with an in-depth qualitative assessment of the beliefs held by the models. We apply FairBelief to English LMs revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.</p>
       </div>
       </div>
     </div>
+
+  <div class="item" id="authorship1">
+    <div class="content">
+      <a class="header">Explainable Authorship Identification in Cultural Heritage Applications: Analysis of a New Perspective</a>
+      <div class="meta">
+        <p class="authors">Mattia Setzu, Silvia Corbara, Anna Monreale, Alejandro Moreo, Fabrizio Sebastiani</p>
+        <!-- <p class="venue">EMNLP</p> -->
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract_5">Abstract</a>
+        <a class="item" data-tab="bibtex_5">BibTeX</a>
+        <a class="item" data-tab="doi_5">DOI</a>
+        <!-- <a class="item" data-tab="slides_5">Presentations</a> -->
+        <div class="right menu">
+          <div class="item">
+            <a href="https://arxiv.org/pdf/2311.02237.pdf" download="authorship1.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="https://arxiv.org/pdf/2311.02237.pdf">
+              <i class="fa-regular fa-file-pdf paper"></i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/silvia-cor/XAId">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div>
+          <!-- <div class="item">
+            <a href="https://huggingface.co/datasets/HANSEN-REPO/HANSEN">
+              <i class="fa-light fa-box package"></i>
+            </a>
+          </div> -->
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_5">
+        <p>While a substantial amount of work has recently been devoted to enhance the performance of computational Authorship Identification (AId) systems, little to no attention has been paid to endowing AId systems with the ability to explain the reasons behind their predictions. This lacking substantially hinders the practical employment of AId methodologies, since the predictions returned by such systems are hardly useful unless they are supported with suitable explanations. In this paper, we explore the applicability of existing general-purpose eXplainable Artificial Intelligence (XAI) techniques to AId, with a special focus on explanations addressed to scholars working in cultural heritage. In particular, we assess the relative merits of three different types of XAI techniques (feature ranking, probing, factuals and counterfactual selection) on three different AId tasks (authorship attribution, authorship verification, same-authorship verification) by running experiments on real AId data. Our analysis shows that, while these techniques make important first steps towards explainable Authorship Identification, more work remains to be done in order to provide tools that can be profitably integrated in the workflows of scholars.</p>
+      </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_5">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('authorship1')"><i class="fa-regular fa-copy"></i></button>
+            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('authorship1')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@article{setzu2023explainable,
+          title={Explainable Authorship Identification in Cultural Heritage Applications: Analysis of a New Perspective},
+          author={Setzu, Mattia and Corbara, Silvia and Monreale, Anna and Moreo, Alejandro and Sebastiani, Fabrizio},
+          journal={arXiv preprint arXiv:2311.02237},
+          year={2023}
+        }</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_5">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('authorship1')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>https://doi.org/10.48550/arXiv.2311.02237</code></pre>
+      </div>
+      <!-- <div class="slides ui bottom attached tab segment" data-tab="slides_5">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+              <a href="{{site.baseurl}}/docs/authorship1_poster.pdf">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> Gentree poster @ AAAI24
+                </button>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div> -->
+    </div>
+  </div>
 
   <div class="item" id="triplex">
     <div class="content">
@@ -576,6 +867,45 @@ year         = {2019}
   <div class="ui cards software">
     <div class="ui card">
       <div class="content">
+        <div class="header">Oh, my Trees!</div>
+      </div>
+      <div class="content">
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="">
+                <p>Decision Tree induction library: now with Multivariate (Oblique) Trees!</p>
+              </div>
+            </div>
+          </div>
+          <div class="event infos">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-hashtag"></i>
+                0.1.0
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-code"></i>
+                Python 3.11
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="ui icon buttons">
+          <!-- <a href="{{ site.baseurl }}/me#fairbelief"><button class="ui button paper"><i class="fa-regular fa-file-pdf"></i></button></a> -->
+          <a href="https://github.com/msetzu/oh-my-trees"><button class="ui button github"><i class="fab fa-github"></i></button></a>
+          <a href="https://pypi.org/project/ohmt"><button class="ui button package"><i class="fa-regular fa-box"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="ui card">
+      <div class="content">
         <div class="header">Autotraino</div>
       </div>
       <div class="content">
@@ -824,6 +1154,17 @@ year         = {2019}
   </h1>
   
   <div class="ui relaxed divided list">
+    <div class="item">
+      <a href="{{ site.baseurl }}/docs/presentations/cmstatistics">
+      <button class="ui button slides">
+        <i class="fa-regular fa-triangle"></i>
+      </button>
+      </a>
+      <div class="content">
+        <a class="header">Explainable AI: From model, to explanation, to user</a>
+        <div class="description">Invited talk @ CMStatistics, 19/12/2023</div>
+      </div>
+    </div>
     <div class="item">
       <a href="https://docs.google.com/presentation/d/1KIffNV_-wfOmHd6TosFMQR1VzREwU60vGycGfkAeiew/edit?usp=sharing">
       <button class="ui button slides">

@@ -1,0 +1,16 @@
+/* turn year of course black */
+.ui.list .list>.item a.header, .ui.list>.item a.header {
+    color: black !important;
+}
+
+/* hide about me bar */
+#inner_head_bar {
+    display: none;
+}
+
+/* all black bar */
+#head_bar #about,
+#head_bar #about * {
+    background-color: transparent;
+    color: white;
+}
