@@ -30,6 +30,178 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
   </h1>
 
 <div class="ui divided items papers">
+  <div class="item" id="pivottree">
+    <div class="content">
+      <a class="header">Data-Agnostic Pivotal Instances Selection for Decision-Making Models</a>
+      <div class="meta">
+        <p class="authors">Alessio Cascione, Mattia Setzu, Riccardo Guidotti</p>
+        <p class="venue">TrustNLP</p>
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract_12">Abstract</a>
+        <a class="item" data-tab="bibtex_12">BibTeX</a>
+        <a class="item" data-tab="doi_12">DOI</a>
+        <a class="item" data-tab="slides_12">Presentations</a>
+        <div class="right menu">
+          <div class="item">
+            <a href="{{ site.baseurl}}/docs/pivottree.pdf" download="pivottree.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-031-70341-6_22">
+              <i class="fa-regular fa-file-pdf paper"></i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/msetzu/pivottree">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_12">
+        <p>As decision-making processes become increasingly complex, machine learning tools have become essential resources for tackling business and social issues. However, many methodologies rely on complex models that experts and everyday users cannot really interpret or understand. This is why constructing interpretable models is crucial. Humans typically make decisions by comparing the case at hand with a few exemplary and representative cases imprinted in their minds. Our objective is to design an approach that can select such exemplary cases, which we call pivots, to build an interpretable predictive model. To this aim, we propose a hierarchical and interpretable pivot selection model inspired by Decision Trees, and based on the similarity between pivots and input instances. Such a model can be used both as a pivot selection method, and as a standalone predictive model. By design, our proposal can be applied to any data type, as we can exploit pre-trained networks for data transformation. Through experiments on various datasets of tabular data, texts, images, and time series, we have demonstrated the superiority of our proposal compared to naive alternatives and state-of-the-art instance selectors, while minimizing the model complexity, i.e., the number of pivots identified.</p>
+      </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_12">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('pivottree')"><i class="fa-regular fa-copy"></i></button>
+            <a href="{{ site.baseurl }}/bibtex/pivottree.bib" download="pivottree.bib" onclick="download_bibtex('pivottree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@inproceedings{DBLP:conf/pkdd/CascioneSG24,
+  author       = {Alessio Cascione and
+                  Mattia Setzu and
+                  Riccardo Guidotti},
+  title        = {Data-Agnostic Pivotal Instances Selection for Decision-Making Models},
+  booktitle    = {ECML/PKDD},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14941},
+  pages        = {367--386},
+  publisher    = {Springer},
+  year         = {2024}
+}
+</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_12">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('pivottree')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>10.1007/978-3-031-70341-6_22</code></pre>
+      </div>
+      <div class="slides ui bottom attached tab segment" data-tab="slides_12">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+              <a href="https://github.com/msetzu/marpee/tree/gallery/pivottree">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> PivotTree presentation @ ECML/PKDD
+                </button>
+              </a>
+              <a href="https://github.com/msetzu/pivottree/blob/master/poster.pdf">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> PivotTree poster @ ECML/PKDD
+                </button>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="item" id="fairbelief">
+    <div class="content">
+      <a class="header">Fairbelief – Assessing Harmful Beliefs in Language Models</a>
+      <div class="meta">
+        <p class="authors">Mattia Setzu, Marta Marchiori Manerba, Pasquale Minervini, Debora Nozza</p>
+        <p class="venue">TrustNLP</p>
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract_11">Abstract</a>
+        <a class="item" data-tab="bibtex_11">BibTeX</a>
+        <a class="item" data-tab="doi_11">DOI</a>
+        <a class="item" data-tab="slides_11">Presentations</a>
+        <div class="right menu">
+          <div class="item">
+            <a href="https://aclanthology.org/2024.trustnlp-1.3.pdf" download="fairbelief.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="https://aclanthology.org/2024.trustnlp-1.3.pdf">
+              <i class="fa-regular fa-file-pdf paper"></i>
+            </a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/msetzu/fairbelief">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract_11">
+        <p>Language Models (LMs) have been shown to inherit undesired biases that might hurt minorities and underrepresented groups if such systems were integrated into real-world applications without careful fairness auditing.This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that an LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and likelihood, assessing predictions on a fairness dataset specifically designed to quantify LMs’ outputs’ hurtfulness.Finally, we conclude with an in-depth qualitative assessment of the beliefs emitted by the models.We apply FairBelief to English LMs, revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.</p>
+      </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_11">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('fairbelief')"><i class="fa-regular fa-copy"></i></button>
+            <a href="{{ site.baseurl }}/bibtex/fairbelief.bib" download="fairbelief.bib" onclick="download_bibtex('fairbelief')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@inproceedings{setzu-etal-2024-fairbelief,
+    title = "{F}air{B}elief - Assessing Harmful Beliefs in Language Models",
+    author = "Setzu, Mattia  and
+      Marchiori Manerba, Marta  and
+      Minervini, Pasquale  and
+      Nozza, Debora",
+    editor = "Ovalle, Anaelia  and
+      Chang, Kai-Wei  and
+      Cao, Yang Trista  and
+      Mehrabi, Ninareh  and
+      Zhao, Jieyu  and
+      Galstyan, Aram  and
+      Dhamala, Jwala  and
+      Kumar, Anoop  and
+      Gupta, Rahul",
+    booktitle = "Proceedings of the 4th Workshop on Trustworthy Natural Language Processing (TrustNLP 2024)",
+    month = jun,
+    year = "2024",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.trustnlp-1.3",
+    doi = "10.18653/v1/2024.trustnlp-1.3",
+    pages = "27--39",
+    abstract = "Language Models (LMs) have been shown to inherit undesired biases that might hurt minorities and underrepresented groups if such systems were integrated into real-world applications without careful fairness auditing.This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that an LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and likelihood, assessing predictions on a fairness dataset specifically designed to quantify LMs{'} outputs{'} hurtfulness.Finally, we conclude with an in-depth qualitative assessment of the beliefs emitted by the models.We apply FairBelief to English LMs, revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.",
+}
+
+</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_11">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('fairbelief')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>10.18653/v1/2024.trustnlp-1.3</code></pre>
+      </div>
+      <div class="slides ui bottom attached tab segment" data-tab="slides_11">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+              <a href="https://docs.google.com/presentation/d/1y1J0USoaKBfx9BBysWwSLTi14mJbfOlV0SFCuom6hqo/edit?usp=sharing">
+                <button class="ui icon button slides">
+                  <i class="fa-regular fa-presentation-screen"></i> Fairbelief presentation @ TrustNLP
+                </button>
+              </a>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="item" id="gentree">
     <div class="content">
       <a class="header">Generative Models for Decision Trees</a>
@@ -39,8 +211,8 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       </div>
       <div class="ui top attached tabular menu">
         <a class="item active" data-tab="abstract_10">Abstract</a>
-        <!-- <a class="item" data-tab="bibtex_10">BibTeX</a>
-        <a class="item" data-tab="doi_10">DOI</a> -->
+        <a class="item" data-tab="bibtex_10">BibTeX</a>
+        <a class="item" data-tab="doi_10">DOI</a>
         <a class="item" data-tab="slides_10">Presentations</a>
         <div class="right menu">
           <div class="item">
@@ -73,32 +245,35 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
           We compare our proposal against classical tree induction methods, optimal approaches, and ensemble models. 
           The results show that our proposal can generate accurate and shallow, i.e., interpretable, decision trees.</p>
       </div>
-      <!-- <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_10">
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_10">
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('gentree')"><i class="fa-regular fa-copy"></i></button>
             <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('gentree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
-        <pre><code>@inproceedings{DBLP:conf/cogmi/SetzuMM21,
-  author       = {Mattia Setzu and
-                Anna Monreale and
-                Pasquale Minervini},
-  title        = {TRIPLEx: Triple Extraction for Explanation},
-  booktitle    = {CogMI},
-  pages        = {44--53},
-  publisher    = {{IEEE}},
-  year         = {2021}
-  }</code></pre>
-      </div> -->
-      <!-- <div class="doi ui bottom attached tab segment" data-tab="doi_10">
+        <pre><code>@inproceedings{DBLP:conf/aaai/GuidottiMSV24,
+  author       = {Riccardo Guidotti and
+                  Anna Monreale and
+                  Mattia Setzu and
+                  Giulia Volpi},
+  title        = {Generative Model for Decision Trees},
+  booktitle    = {AAAI},
+  pages        = {21116--21124},
+  publisher    = {AAAI Press},
+  year         = {2024}
+}
+
+</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_10">
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_doi_to_clipboard('gentree')"><i class="fa-regular fa-copy"></i></button>
           </div>
         </div>
         <pre><code>10.1109/CogMI52975.2021.00015</code></pre>
-      </div> -->
+      </div>
       <div class="slides ui bottom attached tab segment" data-tab="slides_10">
         <div class="ui list">
           <div class="item">
@@ -126,7 +301,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <a class="item active" data-tab="abstract_9">Abstract</a>
         <a class="item" data-tab="bibtex_9">BibTeX</a>
         <a class="item" data-tab="doi_9">DOI</a>
-        <!-- <a class="item" data-tab="slides_9">Presentations</a> -->
+        <a class="item" data-tab="slides_9">Presentations</a>
         <div class="right menu">
           <div class="item">
             <a href="https://aclanthology.org/2023.findings-emnlp.916.pdf" download="hansen.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
@@ -136,11 +311,6 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
               <i class="fa-regular fa-file-pdf paper"></i>
             </a>
           </div>
-          <!-- <div class="item">
-            <a href="https://github.com/msetzu/hansen">
-              <i class="fab fa-github github"></i>
-            </a>
-          </div> -->
           <div class="item">
             <a href="https://huggingface.co/datasets/HANSEN-REPO/HANSEN">
               <i class="fa-light fa-box package"></i>
@@ -226,13 +396,13 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
     <div class="content">
     <a class="header">Correlation and Unintended Biases on Univariate and Multivariate Decision Trees</a>
     <div class="meta">
-      <p class="authors">Mattia Setzu, Anna Monreale, Pasquale Minervini</p>
+      <p class="authors">Mattia Setzu, Salvatore Ruggieri</p>
       <p class="venue">IEEE Bigdata</p>
     </div>
     <div class="ui top attached tabular menu">
       <a class="item active" data-tab="abstract_7">Abstract</a>
-      <!-- <a class="item" data-tab="bibtex_7">BibTeX</a> -->
-      <!-- <a class="item" data-tab="doi_7">DOI</a> -->
+      <a class="item" data-tab="bibtex_7">BibTeX</a>
+      <a class="item" data-tab="doi_7">DOI</a>
       <!-- <a class="item" data-tab="slides_7">Presentations</a> -->
       <div class="right menu">
         <div class="item">
@@ -244,7 +414,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
           </a>
         </div>
         <div class="item">
-          <a href="https://github.com/msetzu/https://github.com/msetzu/Univariate-vs-multivariate-decision-trees">
+          <a href="https://github.com/msetzu/Univariate-vs-multivariate-decision-trees">
             <i class="fab fa-github github"></i>
           </a>
         </div>
@@ -265,22 +435,28 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
           <a href="{{ site.baseurl }}/bibtex/setzu2023correlation.bib" download="setzu2023correlation.bib" onclick="download_bibtex('trees')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
         </div>
       </div>
-      <pre><code>@article{setzu2023correlation,
-        title={Correlation and Unintended Biases on Univariate and Multivariate Decision Trees},
-        author={Setzu, Mattia and Ruggieri, Salvatore},
-        journal={arXiv preprint arXiv:2312.01884},
-        year={2023}
-      }</code></pre>
+      <pre><code>@inproceedings{DBLP:conf/bigdataconf/SetzuR23,
+  author       = {Mattia Setzu and
+                  Salvatore Ruggieri},
+  title        = {Correlation and Unintended Biases on Univariate and Multivariate Decision
+                  Trees},
+  booktitle    = {IEEE Big Data},
+  pages        = {5382--5391},
+  publisher    = {IEEE},
+  year         = {2023}
+}
+
+</code></pre>
     </div>
     <div class="doi ui bottom attached tab segment" data-tab="doi_7">
       <div class="ui bottom attached label">
       </div>
-      <pre><code></code></pre>
+      <pre><code>10.1109/BigData59044.2023.10386469</code></pre>
     </div>
     </div>
   </div>
 
-  <div class="item" id="fairbelief">
+<!--   <div class="item" id="fairbelief">
     <div class="content">
       <a class="header">FairBelief - Assessing Harmful Beliefs in Large Language Models</a>
       <div class="meta">
@@ -294,7 +470,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <p>Language Models (LMs) have been shown to inherit undesired stereotypes that might hurt minorities and underrepresented groups if such systems were to be integrated into real-world applications without careful fairness auditing. This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that a LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and prediction likelihood, assessing predictions on a fairness dataset specifically designed to assess LMs' outputs' hurtfulness. Finally, we conclude with an in-depth qualitative assessment of the beliefs held by the models. We apply FairBelief to English LMs revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.</p>
       </div>
       </div>
-    </div>
+    </div> -->
 
   <div class="item" id="authorship1">
     <div class="content">
@@ -684,7 +860,7 @@ year         = {2019}
   </h1>
 	
   <div class="ui segment">
-    <h3 class="ui left floated header"><i class="fa-regular fa-chalkboard-user"></i> Post-doc</h3>
+    <h3 class="ui left floated header"><i class="fa-regular fa-chalkboard-user"></i> Junior researcher</h3>
     <div class="timeline">June 2023 - ... <i class="fa-xs fa-light fa-calendar"></i></div>
     <div class="ui clearing divider"></div>
       <div class="ui list">
@@ -865,6 +1041,117 @@ year         = {2019}
   </h1>
   
   <div class="ui cards software">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Coipee</div>
+      </div>
+      <div class="content">
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="">
+                <p>An implementation of Caipi, an explainable interactive learning algorithm.</p>
+              </div>
+            </div>
+          </div>
+          <div class="event infos">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-hashtag"></i>
+                0.1.0
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-code"></i>
+                Python 3.11
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="ui icon buttons">
+          <a href="https://github.com/msetzu/coipee"><button class="ui button github"><i class="fab fa-github"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Hybrid systems tutorial</div>
+      </div>
+      <div class="content">
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="">
+                <p>Tutorial notebooks on hybrid systems.</p>
+              </div>
+            </div>
+          </div>
+          <div class="event infos">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-hashtag"></i>
+                0.1.0
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-code"></i>
+                Python 3.11
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="ui icon buttons">
+          <a href="https://github.com/msetzu/hdms-essai24"><button class="ui button github"><i class="fab fa-github"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Marpee</div>
+      </div>
+      <div class="content">
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="">
+                <p>Framework for Markdown slides. Thanks to Andrea Pugnana for his constant support.</p>
+              </div>
+            </div>
+          </div>
+          <div class="event infos">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-hashtag"></i>
+                0.1.0
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-code"></i>
+                marp 3.4.0
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="ui icon buttons">
+          <a href="https://github.com/msetzu/marpee/"><button class="ui button github"><i class="fab fa-github"></i></button></a>
+        </div>
+      </div>
+    </div>
     <div class="ui card">
       <div class="content">
         <div class="header">Oh, my Trees!</div>
@@ -1155,9 +1442,20 @@ year         = {2019}
   
   <div class="ui relaxed divided list">
     <div class="item">
+      <a href="https://github.com/msetzu/marpee/tree/gallery/pivottree">
+      <button class="ui button slides">
+        <i class="fa-regular fa-presentation-screen"></i>
+      </button>
+      </a>
+      <div class="content">
+        <a class="header">Data-Agnostic Pivotal Instances Selection for Decision-Making Models</a>
+        <div class="description">Paper presentation @ ECML/PKDD, 10/9/2024</div>
+      </div>
+    </div>
+    <div class="item">
       <a href="{{ site.baseurl }}/docs/presentations/cmstatistics">
       <button class="ui button slides">
-        <i class="fa-regular fa-triangle"></i>
+        <i class="fa-regular fa-presentation-screen"></i>
       </button>
       </a>
       <div class="content">
