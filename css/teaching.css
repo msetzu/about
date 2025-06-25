@@ -14,3 +14,14 @@
     background-color: transparent;
     color: white;
 }
+
+/* links and icons */
+div.relaxed.list i,
+.seminars div.summary i {
+    margin-right: 5px;
+}
+
+button.github:hover {
+    background: black !important;
+    color: white !important;
+}

@@ -14,15 +14,25 @@ function copy_bibtex_to_clipboard(paper) {
 }
 
 function download_bibtex(paper) {
-	var download_button = $("#" + paper + " .bibtex .download i")
-
+	var download_button = $("#" + paper + " .bibtex .download i");
+	
+	
+	// actual download
+	var bibtex_content = $("#" + paper + " code").html();
+	var file = new Blob(
+		[bibtex_content],
+		{type: "text/plain;charset=utf-8;"}
+	);
+	saveAs(file, paper + ".bib");
+	
+	// view
 	download_button.removeClass("fa-download");
 	download_button.addClass("fa-check");
-
+	
 	setTimeout(() => {
 		download_button.removeClass("fa-check");
 		download_button.addClass("fa-arrow-down-to-line");
-	}, 3000)
+	}, 3000);
 }
 
 function copy_doi_to_clipboard(paper) {

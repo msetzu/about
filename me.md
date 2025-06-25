@@ -15,13 +15,15 @@ permalink: /me
 	});
 </script>
 
+<script src = "https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.0/FileSaver.min.js" integrity="sha512-csNcFYJniKjJxRWRV1R7fvnXrycHP6qDR21mgz1ZP55xY5d+aHLfo9/FcGDQLfn2IfngbAHd8LdfsagcCqgTcQ==" crossorigin = "anonymous" referrerpolicy = "no-referrer"> </script>
+
 <div class="ui sticky" id="body">
 
 
 I'm Mattia Setzu, a postdoc researcher (RTD-A) University of Pisa.
 My research focuses on Explainable AI (XAI), specifically on tabular XAI and explainability for NLP models.
 
-Down here you can find infos on my <a href="#publications">publications</a>, <a href="#education">education</a>, <a href="#software">public software</a>, and <a href="#presentations">talks</a>.
+Down here you can find infos on my <a href="#publications">publications</a>, <a href="#positions">positions</a>, <a href="#education">education</a>, <a href="#software">public software</a>, and <a href="#presentations">talks</a>.
 
 <div id="publications">
   <h1 class="ui horizontal divider header">
@@ -30,12 +32,76 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
   </h1>
 
 <div class="ui divided items papers">
+
+  <div class="item" id="clusterlets">
+    <div class="content">
+      <a class="header">Fair Clustering with Clusterlets</a>
+      <div class="meta">
+        <p class="authors">Mattia Setzu, Riccardo Guidotti</p>
+      </div>
+      <div class="ui top attached tabular menu">
+        <a class="item active" data-tab="abstract _13">Abstract</a>
+        <a class="item" data-tab="bibtex _13">BibTeX</a>
+        <a class="item" data-tab="doi _13">DOI</a>
+        <div class="right menu">
+          <div class="item">
+            <a href="https://arxiv.org/pdf/2505.06259" download="clusterlets.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+          </div>
+          <div class="item">
+            <a href="https://github.com/msetzu/clusterlets">
+              <i class="fab fa-github github"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="description ui bottom attached tab segment active" data-tab="abstract _13">
+        <p>Given their widespread usage in the real world, the fairness of clustering methods has become of major interest. Theoretical results on fair clustering show that fairness enjoys transitivity: given a set of small and fair clusters, a trivial centroid-based clustering algorithm yields a fair clustering. Unfortunately, discovering a suitable starting clustering can be computationally expensive, rather complex or arbitrary.
+          
+          In this paper, we propose a set of simple clusterlet-based fuzzy clustering algorithms that match single-class clusters, optimizing fair clustering. Matching leverages clusterlet distance, optimizing for classic clustering objectives, while also regularizing for fairness. Empirical results show that simple matching strategies are able to achieve high fairness, and that appropriate parameter tuning allows to achieve high cohesion and low overlap.</p>
+      </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex _13">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('clusterlets')"><i class="fa-regular fa-copy"></i></button>
+            <a onclick="download_bibtex('clusterlets')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@article{DBLP:journals/corr/abs-2505-06259,
+          author       = {Mattia Setzu and
+                          Riccardo Guidotti},
+          title        = {Fair Clustering with Clusterlets},
+          journal      = {CoRR},
+          volume       = {abs/2505.06259},
+          year         = {2025}
+        }
+</code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi _13">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_doi_to_clipboard('clusterlets')"><i class="fa-regular fa-copy"></i></button>
+          </div>
+        </div>
+        <pre><code>10.48550/arXiv.2505.06259</code></pre>
+      </div>
+      <div class="slides ui bottom attached tab segment" data-tab="slides _13">
+        <div class="ui list">
+          <div class="item">
+            <div class="content">
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <div class="item" id="pivottree">
     <div class="content">
       <a class="header">Data-Agnostic Pivotal Instances Selection for Decision-Making Models</a>
       <div class="meta">
         <p class="authors">Alessio Cascione, Mattia Setzu, Riccardo Guidotti</p>
-        <p class="venue">TrustNLP</p>
+        <p class="venue">ECML/PKDD 2024</p>
       </div>
       <div class="ui top attached tabular menu">
         <a class="item active" data-tab="abstract_12">Abstract</a>
@@ -65,7 +131,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('pivottree')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/pivottree.bib" download="pivottree.bib" onclick="download_bibtex('pivottree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('pivottree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{DBLP:conf/pkdd/CascioneSG24,
@@ -111,6 +177,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
     </div>
   </div>
 
+
   <div class="item" id="fairbelief">
     <div class="content">
       <a class="header">Fairbelief – Assessing Harmful Beliefs in Language Models</a>
@@ -146,7 +213,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('fairbelief')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/fairbelief.bib" download="fairbelief.bib" onclick="download_bibtex('fairbelief')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('fairbelief')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{setzu-etal-2024-fairbelief,
@@ -174,7 +241,6 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
     pages = "27--39",
     abstract = "Language Models (LMs) have been shown to inherit undesired biases that might hurt minorities and underrepresented groups if such systems were integrated into real-world applications without careful fairness auditing.This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that an LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and likelihood, assessing predictions on a fairness dataset specifically designed to quantify LMs{'} outputs{'} hurtfulness.Finally, we conclude with an in-depth qualitative assessment of the beliefs emitted by the models.We apply FairBelief to English LMs, revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.",
 }
-
 </code></pre>
       </div>
       <div class="doi ui bottom attached tab segment" data-tab="doi_11">
@@ -249,7 +315,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('gentree')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('gentree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('gentree')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{DBLP:conf/aaai/GuidottiMSV24,
@@ -263,7 +329,6 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
   publisher    = {AAAI Press},
   year         = {2024}
 }
-
 </code></pre>
       </div>
       <div class="doi ui bottom attached tab segment" data-tab="doi_10">
@@ -289,6 +354,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       </div>
     </div>
   </div>
+
 
   <div class="item" id="hansen">
     <div class="content">
@@ -325,7 +391,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('hansen')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('hansen')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('hansen')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{tripto-etal-2023-hansen,
@@ -374,22 +440,60 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
     </div>
   </div>
 
-  <div class="item" id="hdlm">
+
+  <div class="item" id="hdm">
     <div class="content">
-      <a class="header">Towards synergistic human-AI collaboration in hybrid decision-making systems</a>
+      <a class="header">AI, Meet Human: Learning Paradigms for Hybrid Decision Making Systems</a>
       <div class="meta">
-        <p class="authors">Anonymous</p>
-        <p class="venue reviewing">Under review</p>
+        <p class="authors">Clara Punzi, Roberto Pellungrini, Mattia Setzu, Fosca Giannotti, Dino Pedreschi</p>
+        <p class="venue reviewing">Preprint</p>
       </div>
       <div class="ui top attached tabular menu">
         <a class="item active" data-tab="abstract_8">Abstract</a>
+        <a class="item" data-tab="bibtex_8">BibTeX</a>
+        <a class="item" data-tab="doi_8">DOI</a>
+        <div class="right menu">
+        <div class="item">
+          <a href="https://arxiv.org/pdf/2402.06287" download="aimeethuman.pdf"><i class="fa-regular fa-arrow-down-to-line download"></i></a>
+        </div>
+        <div class="item">
+          <a href="https://arxiv.org/abs/2402.06287">
+            <i class="fa-regular fa-file-pdf paper"></i>
+          </a>
+        </div>
+      </div>
       </div>
       <div class="description ui bottom attached tab segment active" data-tab="abstract_8">
         <p>A growing body of interdisciplinary literature indicates that human decision-making processes can be enhanced by Artificial Intelligence (AI). Nevertheless, the use of AI in critical domains has also raised significant concerns regarding its final users, those affected by the undertaken decisions, and the broader society. Consequently, recent studies are shifting their focus towards the development of human-centered frameworks that facilitate a synergistic human-machine collaboration while upholding ethical and legal standards. In this work, we present a taxonomy for hybrid decision-making systems to classify systems according to the type of interaction that occurs between human and artificial intelligence. Furthermore, we identify gaps in the current body of literature and suggest potential directions for future research.
       </p>
       </div>
+      <div class="bibtex ui bottom attached tab segment" data-tab="bibtex_8">
+        <div class="ui bottom attached label">
+          <div class="ui small basic icon buttons action">
+            <button class="ui button copy" onclick="copy_bibtex_to_clipboard('hdm')"><i class="fa-regular fa-copy"></i></button>
+            <a onclick="download_bibtex('hdm')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          </div>
+        </div>
+        <pre><code>@article{DBLP:journals/corr/abs-2402-06287,
+  author       = {Clara Punzi and
+                  Roberto Pellungrini and
+                  Mattia Setzu and
+                  Fosca Giannotti and
+                  Dino Pedreschi},
+  title        = {AI, Meet Human: Learning Paradigms for Hybrid Decision Making Systems},
+  journal      = {CoRR},
+  volume       = {abs/2402.06287},
+  year         = {2024}
+}
+  </code></pre>
+      </div>
+      <div class="doi ui bottom attached tab segment" data-tab="doi_8">
+        <div class="ui bottom attached label">
+        </div>
+        <pre><code>10.48550/arXiv.2402.06287</code></pre>
+      </div>
+      </div>
     </div>
-  </div>
 
 
   <div class="item" id="trees">
@@ -432,7 +536,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       <div class="ui bottom attached label">
         <div class="ui small basic icon buttons action">
           <button class="ui button copy" onclick="copy_bibtex_to_clipboard('trees')"><i class="fa-regular fa-copy"></i></button>
-          <a href="{{ site.baseurl }}/bibtex/setzu2023correlation.bib" download="setzu2023correlation.bib" onclick="download_bibtex('trees')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+          <a onclick="download_bibtex('trees')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
         </div>
       </div>
       <pre><code>@inproceedings{DBLP:conf/bigdataconf/SetzuR23,
@@ -445,7 +549,6 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
   publisher    = {IEEE},
   year         = {2023}
 }
-
 </code></pre>
     </div>
     <div class="doi ui bottom attached tab segment" data-tab="doi_7">
@@ -456,21 +559,6 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
     </div>
   </div>
 
-<!--   <div class="item" id="fairbelief">
-    <div class="content">
-      <a class="header">FairBelief - Assessing Harmful Beliefs in Large Language Models</a>
-      <div class="meta">
-        <p class="authors">Anonymous</p>
-        <p class="venue reviewing">Under review</p>
-      </div>
-      <div class="ui top attached tabular menu">
-        <a class="item active" data-tab="abstract_6">Abstract</a>
-      </div>
-      <div class="description ui bottom attached tab segment active" data-tab="abstract_6">
-        <p>Language Models (LMs) have been shown to inherit undesired stereotypes that might hurt minorities and underrepresented groups if such systems were to be integrated into real-world applications without careful fairness auditing. This paper proposes FairBelief, an analytical approach to capture and assess beliefs, i.e., propositions that a LM may embed with different degrees of confidence and that covertly influence its predictions. With FairBelief, we leverage prompting to study the behavior of several state-of-the-art LMs across different previously neglected axes, such as model scale and prediction likelihood, assessing predictions on a fairness dataset specifically designed to assess LMs' outputs' hurtfulness. Finally, we conclude with an in-depth qualitative assessment of the beliefs held by the models. We apply FairBelief to English LMs revealing that, although these architectures enable high performances on diverse natural language processing tasks, they show hurtful beliefs about specific genders. Interestingly, training procedure and dataset, model scale, and architecture induce beliefs of different degrees of hurtfulness.</p>
-      </div>
-      </div>
-    </div> -->
 
   <div class="item" id="authorship1">
     <div class="content">
@@ -512,7 +600,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('authorship1')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('authorship1')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('authorship1')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@article{setzu2023explainable,
@@ -545,6 +633,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       </div> -->
     </div>
   </div>
+
 
   <div class="item" id="triplex">
     <div class="content">
@@ -586,7 +675,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button copy" onclick="copy_bibtex_to_clipboard('triplex')"><i class="fa-regular fa-copy"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuMM21.bib" download="SetzuMM21.bib" onclick="download_bibtex('triplex')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('triplex')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{DBLP:conf/cogmi/SetzuMM21,
@@ -623,6 +712,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       </div>
     </div>
   </div>
+
 
   <div class="item" id="glocalx">
     <div class="content">
@@ -667,7 +757,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button  copy"><i class="fa-regular fa-copy" onclick="copy_bibtex_to_clipboard('glocalx')"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuGMTPG21.bib" download="SetzuGMTPG21.bib" onclick="download_bibtex('glocalx')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('glocalx')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@article{DBLP:journals/ai/SetzuGMTPG21,
@@ -723,7 +813,8 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
       </div>
     </div>
   </div>
-  
+
+
   <div class="item" id="rule-relevance-score">
     <div class="content">
       <a class="header">Global Explanations with Local Scoring</a>
@@ -763,7 +854,7 @@ Down here you can find infos on my <a href="#publications">publications</a>, <a 
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
               <button class="ui button copy" onclick="copy_bibtex_to_clipboard('rule-relevance-score')"><i class="fa-regular fa-copy"></i></button>
-              <a href="{{ site.baseurl }}/bibtex/SetzuGMT19.bib" download="SetzuGMT19.bib" onclick="download_bibtex('rule-relevance-score')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+              <a onclick="download_bibtex('rule-relevance-score')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{DBLP:conf/pkdd/SetzuGMT19,
@@ -790,6 +881,7 @@ year         = {2019}
     </div>
     </div>
   </div>
+
 
   <div class="item" id="sparql">
     <!-- <div class="image">
@@ -823,7 +915,7 @@ year         = {2019}
         <div class="ui bottom attached label">
           <div class="ui small basic icon buttons action">
             <button class="ui button  copy"><i class="fa-regular fa-copy" onclick="copy_bibtex_to_clipboard('sparql')"></i></button>
-            <a href="{{ site.baseurl }}/bibtex/SetzuA16.bib" download="SetzuA16.bib" onclick="download_bibtex('sparql')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
+            <a onclick="download_bibtex('sparql')"><button class="ui button download"><i class="fa-regular fa-arrow-down-to-line"></i></button></a>
           </div>
         </div>
         <pre><code>@inproceedings{DBLP:conf/semco/SetzuA16,
@@ -853,15 +945,14 @@ year         = {2019}
 
 
 
-<div id="education">
+<div id="positions">
   <h1 class="ui horizontal divider header">
-  <i class="fa-regular fa-graduation-cap"></i>
-  Education
+  <i class="fa-regular fa-briefcase"></i>
+  Positions
   </h1>
-	
   <div class="ui segment">
     <h3 class="ui left floated header"><i class="fa-regular fa-chalkboard-user"></i> Junior researcher</h3>
-    <div class="timeline">June 2023 - ... <i class="fa-xs fa-light fa-calendar"></i></div>
+    <div class="timeline">June 2023 - Current <i class="fa-xs fa-light fa-calendar"></i></div>
     <div class="ui clearing divider"></div>
       <div class="ui list">
         <div class="item">
@@ -870,15 +961,9 @@ year         = {2019}
             University of Pisa
           </div>
         </div>
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-location"></i>
-            Pisa, Italy
-          </div>
-        </div> -->
       </div>
   </div>
-
+  <!--  -->
   <div class="ui segment">
     <h3 class="ui left floated header"><i class="fa-regular fa-magnifying-glass"></i> Research Fellowship</h3>
     <div class="timeline">April 2021 - May 2023 <i class="fa-xs fa-light fa-calendar"></i></div>
@@ -887,7 +972,7 @@ year         = {2019}
         <div class="item">
           <div class="content">
             <i class="fa-light fa-book-open"></i>
-            Enriching Uninterpretable Machine Learning Models with Explanations with Local to Global Methodologies
+            Fellowship on "Enriching Uninterpretable Machine Learning Models with Explanations with Local to Global Methodologies"
           </div>
         </div>
         <div class="item">
@@ -896,21 +981,9 @@ year         = {2019}
             University of Pisa
           </div>
         </div>
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-location"></i>
-            Pisa, Italy
-          </div>
-        </div> -->
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-calendar"></i>
-            April 2021 -- May 2023
-          </div>
-        </div> -->
       </div>
   </div>
-
+  <!--  -->
   <div class="ui segment">
     <h3 class="ui left floated header"><i class="fa-regular fa-magnifying-glass"></i> Research Grant</h3>
     <div class="timeline">Dec 2020 - April 2021 <i class="fa-xs fa-light fa-calendar"></i></div>
@@ -922,20 +995,16 @@ year         = {2019}
             University of Pisa
           </div>
         </div>
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-location"></i>
-            Pisa, Italy
-          </div>
-        </div> -->
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-calendar"></i>
-            Dec 2020 -- April 2021
-          </div>
-        </div> -->
       </div>
   </div>
+  
+<div id="education">
+  <h1 class="ui horizontal divider header">
+  <i class="fa-regular fa-graduation-cap"></i>
+  Education
+  </h1>
+	
+
 
   <div class="ui segment">
     <h3 class="ui left floated header"><i class="fa-regular fa-graduation-cap"></i> Ph.D. in Computer Science</h3>
@@ -945,7 +1014,12 @@ year         = {2019}
         <div class="item">
           <div class="content">
             <i class="fa-light fa-book-open"></i>
-            Opening the Black Box: Empowering Machine Learning Models with Explanations
+            Thesis "Opening the Black Box: Empowering Machine Learning Models with Explanations"
+            <p class="ui download">
+              <a href="https://etd.adm.unipi.it/theses/available/etd-05132022-142703/unrestricted/thesis.pdf">
+              <i class="fa-regular fa-arrow-down-to-line download"></i>
+              </a>
+            </p>
           </div>
         </div>
         <div class="item">
@@ -1018,21 +1092,11 @@ year         = {2019}
             University of Cagliari
           </div>
         </div>
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-location"></i>
-            Cagliari, Italy
-          </div>
-        </div> -->
-        <!-- <div class="item">
-          <div class="content">
-            <i class="fa-light fa-calendar"></i>
-            Sept. 2013 – Mar. 2016
-          </div>
-        </div> -->
       </div>
   </div>
 </div>
+
+  
 
 <div id="software">
   <h1 class="ui horizontal divider header">
@@ -1041,6 +1105,45 @@ year         = {2019}
   </h1>
   
   <div class="ui cards software">
+    <div class="ui card">
+      <div class="content">
+        <div class="header">Clusterlets</div>
+      </div>
+      <div class="content">
+        <div class="ui small feed">
+          <div class="event">
+            <div class="content">
+              <div class="">
+                <p>Clusterlets extraction, akin to fairlet and coreset extraction. Induce fair clusters out of data, balancing clusters by a target label.</p>
+              </div>
+            </div>
+          </div>
+          <div class="event infos">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-hashtag"></i>
+                0.1.0
+              </div>
+            </div>
+          </div>
+          <div class="event">
+            <div class="content">
+              <div class="summary">
+                <i class="fa-regular fa-code"></i>
+                Python 3.11
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="extra content">
+        <div class="ui icon buttons">
+          <a href="https://github.com/msetzu/clusterlets"><button class="ui button github"><i class="fab fa-github"></i></button></a>
+          <a href="https://pypi.org/project/clusterlets"><button class="ui button package"><i class="fa-regular fa-box"></i></button></a>
+        </div>
+      </div>
+    </div>
+    <!--  -->
     <div class="ui card">
       <div class="content">
         <div class="header">Coipee</div>
@@ -1078,6 +1181,7 @@ year         = {2019}
         </div>
       </div>
     </div>
+    <!--  -->
     <div class="ui card">
       <div class="content">
         <div class="header">Hybrid systems tutorial</div>

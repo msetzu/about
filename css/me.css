@@ -214,6 +214,15 @@ div#presentations {
     align-items: center;
 }
 
+#education p.download {
+	float: right;
+}
+
+#positions .item .content i,
+#education .item .content i {
+	margin-right: 5px;
+}
+
 #presentations .list .item i {
     display: flex;
     float: left;
